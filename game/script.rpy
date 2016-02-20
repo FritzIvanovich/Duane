@@ -99,6 +99,7 @@ init:
     $ aimless = False
     $ yassan = False
     $ ran_away = False
+    $ lovePoints = 0
 
 label splashscreen:
     scene black
@@ -1035,6 +1036,7 @@ label mbRoute:
     d "And I'm way too late to be picky anyway."
     d "Might as well get this..."
     "Duane paid exactly 200 Yen."
+    play sound "sfx/itemGet.mp3"
     "---Duane received Popipo---"
 
     scene bg mall
