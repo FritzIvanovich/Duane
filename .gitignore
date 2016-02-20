@@ -8,3 +8,8 @@
 
 *.rpyc
 *.rpyb
+*.bak
+
+# Pycharm folder
+
+*/.idea/*
