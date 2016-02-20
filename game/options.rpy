@@ -231,7 +231,7 @@ init -1 python hide:
     config.end_game_transition = fade
 
     ## Used when a game is loaded.
-    config.after_load_transition = fade
+    config.after_load_transition = irisin
 
     ## Used when the window is shown.
     config.window_show_transition = None
