@@ -1,0 +1,496 @@
+Identifier	Character	Dialogue	Filename	Line Number
+start_c86be9cb		Just another day in the ghetto.	/home/stefan/bin/script.rpyc	123
+start_a1ab086a		Nothing particularly [[MLG] going on, when suddenly...	/home/stefan/bin/script.rpyc	124
+start_5d5e6a93	d	Maaaaaan.	/home/stefan/bin/script.rpyc	125
+start_aaa36980	d	I'm all outta MTN DEW! And it's dew today!	/home/stefan/bin/script.rpyc	126
+start_7a5e2a81	d	Faze will kick me out at this rate!	/home/stefan/bin/script.rpyc	127
+start_7fa6f4b3	d	How can I be a professional [[MLG] quickscoper that way?!	/home/stefan/bin/script.rpyc	128
+start_884c6fbd	d	Better get some quick!	/home/stefan/bin/script.rpyc	129
+start_bfd25fba		Duane heads off to the next store in hope of finding some MTN DEW.	/home/stefan/bin/script.rpyc	130
+start_673d796b	d	I'll try this one!	/home/stefan/bin/script.rpyc	135
+start_c455f96a	d	I wonder if they got the dew here...	/home/stefan/bin/script.rpyc	140
+start_201f5705		I'll just ask this dude, he looks pretty swell.	/home/stefan/bin/script.rpyc	141
+start_d4610402	d	Ayyy does this place got some Red Cherry Dew?	/home/stefan/bin/script.rpyc	147
+start_79bb4865	a	Hey buddy I think you got the wrong door.	/home/stefan/bin/script.rpyc	148
+start_b3afdfef	a	The Dew Store is two blocks down.	/home/stefan/bin/script.rpyc	149
+start_ef8e40b7	d	Oh shit I'm sorry.	/home/stefan/bin/script.rpyc	150
+start_9a3436ef	a	Sorry for what?	/home/stefan/bin/script.rpyc	151
+start_4e5737ed		What was I even thinking looking for MTN DEW here.	/home/stefan/bin/script.rpyc	152
+start_e9391c9d		There's no way they sell it here!	/home/stefan/bin/script.rpyc	153
+start_19612b38		Man this really sucks!	/home/stefan/bin/script.rpyc	154
+start_5eb59fe0		I don't deserve this shit.	/home/stefan/bin/script.rpyc	155
+start_e83fd180		I should've listened to the Leatherman and...	/home/stefan/bin/script.rpyc	156
+start_a8a76396		Oh wait, isn't that him?	/home/stefan/bin/script.rpyc	157
+start_ae7a4be1	d	Hey Leatherman! It's me, the boy next door! Remember?	/home/stefan/bin/script.rpyc	162
+start_82822a0c	l	...	/home/stefan/bin/script.rpyc	167
+start_c6bd4e1a	d	Maaan what a shitty gym, doesn't even got no dew.	/home/stefan/bin/script.rpyc	168
+start_5e1d008e	l	......	/home/stefan/bin/script.rpyc	169
+start_cc60c51f	d	What are you even dewing here, Leatherman?	/home/stefan/bin/script.rpyc	170
+start_6feb433a	d	Get it? Dewing?	/home/stefan/bin/script.rpyc	171
+start_6370ed94	l	.........	/home/stefan/bin/script.rpyc	172
+start_e5c73c01	d	Aaaaanyway, shouldn't you be in class? I'm gonna tell the teacher!	/home/stefan/bin/script.rpyc	173
+start_0041f1ac	l	Fuck you.	/home/stefan/bin/script.rpyc	174
+start_ac024562		That's a bit harsh.	/home/stefan/bin/script.rpyc	175
+start_55710720	a	Don't you think you are being a bit rude there?	/home/stefan/bin/script.rpyc	184
+start_0315f81d	l	Fuck you too.	/home/stefan/bin/script.rpyc	185
+start_45abf50c	a	No fuck you, Leatherman. Why don't you and I settle this in the ring if you think you're so tough.	/home/stefan/bin/script.rpyc	186
+start_82822a0c_1	l	...	/home/stefan/bin/script.rpyc	187
+start_e5db8ecb	l	I have no time for this. I gotta get to class.	/home/stefan/bin/script.rpyc	188
+start_1b1c0879	a	Tch, I would've showed him who's boss of this gym.	/home/stefan/bin/script.rpyc	196
+start_2d495516	d	Oh Leatherman! Always with the busy schedule, even when he's skipping class.	/home/stefan/bin/script.rpyc	197
+start_5602408a	a	Anyway kid, want me to show you where to get your Dew?	/home/stefan/bin/script.rpyc	198
+start_adaad763	a	I just got done with my workout.	/home/stefan/bin/script.rpyc	199
+start_d088b851	a	If you're looking for it now you must be late.	/home/stefan/bin/script.rpyc	200
+start_b6a060b0	d	Yeah that'd be great, uh...	/home/stefan/bin/script.rpyc	201
+start_1ff69462	a	Just call me Aniki.	/home/stefan/bin/script.rpyc	202
+start_477f19ee	d	What is this, some kinda weeb name?	/home/stefan/bin/script.rpyc	203
+start_d9fc1ab5	a	Whatever, kid. Let's go.	/home/stefan/bin/script.rpyc	204
+start_db68c057		And so Duane and Aniki went off to get the Dew.	/home/stefan/bin/script.rpyc	211
+start_e0fda7ed		If only optaining it would be that easy.	/home/stefan/bin/script.rpyc	212
+dewquest_fc6295e8		Back in the hood.	/home/stefan/bin/script.rpyc	223
+dewquest_4bf2cb5a		Dewin ain't easy.	/home/stefan/bin/script.rpyc	224
+dewquest_45a392f6	d	Once I got my dew all those scrubs from other clans can fuck right off!	/home/stefan/bin/script.rpyc	225
+dewquest_23b5d1e4	d	It's not like they got any skill anyway.	/home/stefan/bin/script.rpyc	226
+dewquest_98b0c6b5	d	Bunch of fucking hicks.	/home/stefan/bin/script.rpyc	227
+dewquest_384b2470	n	Ay what the fuck man, you got a fucking problem?	/home/stefan/bin/script.rpyc	232
+dewquest_dd5d68f3	d	Huh?	/home/stefan/bin/script.rpyc	233
+dewquest_8a2da82d	n	Fucking Faze scrub.	/home/stefan/bin/script.rpyc	234
+dewquest_2c1e1022	n	Talking shit about other clans without any dew on you.	/home/stefan/bin/script.rpyc	235
+dewquest_ba7e5ee8	d	Yo, I'm just trying to get some right now, not my fault y'all can't even close fgt_csl.exe!	/home/stefan/bin/script.rpyc	236
+dewquest_2a6c36f4	n	I'll rip yer fucking head off you goddamn shitty casual.	/home/stefan/bin/script.rpyc	241
+dewquest_3bdef4a9		He looks pissed, and he's definitely tough.	/home/stefan/bin/script.rpyc	242
+dewquest_8a9605cd		I'll just...	/home/stefan/bin/script.rpyc	243
+dewquest_64342ef8	d	I'll take you on, you filthy scrublord!	/home/stefan/bin/script.rpyc	248
+dewquest_e75215da	n	Get ready to be destroyed, you little bitch!	/home/stefan/bin/script.rpyc	249
+dewquest_50167762	d	I'm not done yet...	/home/stefan/bin/script.rpyc	265
+dewquest_8e165406	n	Want more, huh?	/home/stefan/bin/script.rpyc	266
+dewquest_355f0eaf	n	Say hello to the people in Jersey for me!	/home/stefan/bin/script.rpyc	267
+dewquest_8afb4865	d	Ugh...	/home/stefan/bin/script.rpyc	283
+dewquest_e66833f8	n	Better watch yourself from now on, nigga.	/home/stefan/bin/script.rpyc	284
+dewquest_f92328b7		I shouldn't have tried to take him on by myself...	/home/stefan/bin/script.rpyc	285
+dewquest_c637ba19		I'm just not [[MLG] enough yet...	/home/stefan/bin/script.rpyc	286
+dewquest_1194a78e		I guess this is it...	/home/stefan/bin/script.rpyc	287
+dewquest_d14da980		And so, Duane's story finds an untimely end.	/home/stefan/bin/script.rpyc	292
+dewquest_95b61ed2		Fighting by himself was pretty courageous, but ultimately not very clever.	/home/stefan/bin/script.rpyc	293
+dewquest_9c6df383		Seriously, did you think he could take on the Ultra Nigga?	/home/stefan/bin/script.rpyc	294
+dewquest_8cd15516		Like really?	/home/stefan/bin/script.rpyc	295
+dewquest_85c839cf		Did you even take a look at him before deciding?	/home/stefan/bin/script.rpyc	296
+dewquest_1755e796		Is you fucking retarded? Jesus...	/home/stefan/bin/script.rpyc	297
+dewquest_73d58675		Well anyway you fucked up.	/home/stefan/bin/script.rpyc	298
+dewquest_726f4ee3		GAME OVER	/home/stefan/bin/script.rpyc	299
+dewquest_26bd810d		Shit I don't think I can take him on by myself.	/home/stefan/bin/script.rpyc	305
+dewquest_3b3cece3	d	Aniki! Could you please handle this?	/home/stefan/bin/script.rpyc	306
+dewquest_8cc5ae34	n	I don't care which of you faggots I'll have to break!	/home/stefan/bin/script.rpyc	307
+dewquest_89a81556	a	Leave this to me.	/home/stefan/bin/script.rpyc	315
+dewquest_31f3005d	a	It is Aniki's duty to protect the weak.	/home/stefan/bin/script.rpyc	316
+dewquest_00165743	d	You wot m-	/home/stefan/bin/script.rpyc	317
+dewquest_5c2d8008		Aniki readies his fighting stance.	/home/stefan/bin/script.rpyc	326
+dewquest_13907005		I mean, it doesn't look much different from his usual stance.	/home/stefan/bin/script.rpyc	327
+dewquest_81a2a302		But he'll make it work, I guess.	/home/stefan/bin/script.rpyc	328
+dewquest_54d523af	n	That stance...!	/home/stefan/bin/script.rpyc	339
+dewquest_1670ae47	n	Impossible...! Is he really going to use THAT?!	/home/stefan/bin/script.rpyc	340
+dewquest_a15e332c	n	Inconceivable! Can he really be THE MAN OF LEGEND?!	/home/stefan/bin/script.rpyc	341
+dewquest_a267fc9b	a	Hola, soy el Aniki!	/home/stefan/bin/script.rpyc	342
+dewquest_8b03b50b	a	Yo soy el destructor del mal.	/home/stefan/bin/script.rpyc	343
+dewquest_44f256a7	a	Comete esta!	/home/stefan/bin/script.rpyc	344
+dewquest_3859fd6e	n	Yo wait wait wait!	/home/stefan/bin/script.rpyc	345
+dewquest_782cb640	n	I don't want no trouble man!	/home/stefan/bin/script.rpyc	346
+dewquest_fd0ab0bd	n	I din do nuffin, I'm a good boy!	/home/stefan/bin/script.rpyc	347
+dewquest_cd789162	n	Please let me off man!	/home/stefan/bin/script.rpyc	348
+dewquest_c082cbb5	a	Entiendo, amigo.	/home/stefan/bin/script.rpyc	349
+dewquest_3bfb71a6	a	Vaya con dios...	/home/stefan/bin/script.rpyc	350
+dewquest_7cf942a6		Ultra Nigga ran away.	/home/stefan/bin/script.rpyc	359
+dewquest_b67f8869		Thankful that his life was spared.	/home/stefan/bin/script.rpyc	360
+dewquest_96c07046	n	But you haven't seen the last of me~!	/home/stefan/bin/script.rpyc	361
+dewquest_4884fd44	a	Qué?	/home/stefan/bin/script.rpyc	362
+dewquest_c219721c	n	Uh, I mean, nuffin man!	/home/stefan/bin/script.rpyc	363
+dewquest_bb8e4b4e	a	...	/home/stefan/bin/script.rpyc	365
+dewquest_47d26745		Aniki focuses his mind, slowly returning to his normal stance.	/home/stefan/bin/script.rpyc	366
+dewquest_41930a6d	d	I have no idea what the hell just happened but this was pretty fucking dank Aniki!	/home/stefan/bin/script.rpyc	374
+dewquest_5a1d82fe	d	He just went and ran away!	/home/stefan/bin/script.rpyc	375
+dewquest_501a03e2	a	Haha, that's nothing kid.	/home/stefan/bin/script.rpyc	376
+dewquest_07eb9a4e	a	You've not seen anything yet.	/home/stefan/bin/script.rpyc	377
+dewquest_66b26556	a	He made a good decision to run away, he's apparently not as dumb as he looks.	/home/stefan/bin/script.rpyc	378
+dewquest_448cd9e9	d	Shot's fired!	/home/stefan/bin/script.rpyc	380
+dewquest_6f5f66a3	a	Anyway kid, if you don't want to get in trouble at the [[MLG] academy we'd better go and hurry to the Dew Store.	/home/stefan/bin/script.rpyc	382
+dewquest_e621f165	d	True true.	/home/stefan/bin/script.rpyc	383
+dewquest_4f862b22		What a reliable companion Duane found in Aniki!	/home/stefan/bin/script.rpyc	387
+dewquest_a24163e3		With this, Duane was able to avert the first of many dangers.	/home/stefan/bin/script.rpyc	388
+dewquest_a7bf526b		However, this is merely the beginning of this grand adventure.	/home/stefan/bin/script.rpyc	389
+dewquest_81197b35		For now, it's on to the Dew Store!	/home/stefan/bin/script.rpyc	390
+dewquest_fa58773e	d	Is that it?	/home/stefan/bin/script.rpyc	396
+dewquest_f77a2a90	a	Take a wild guess.	/home/stefan/bin/script.rpyc	401
+dewquest_7f142142	d	Yes! Thanks m9.	/home/stefan/bin/script.rpyc	402
+dewquest_cc21d809	a	Don't sweat it.	/home/stefan/bin/script.rpyc	403
+dewquest_9a1ab034	a	Anyway, it's been fun but I'll have to go now.	/home/stefan/bin/script.rpyc	404
+dewquest_cfdd6b9c	a	I have some business to attend to.	/home/stefan/bin/script.rpyc	405
+dewquest_aadbdfca	a	I'm sure we'll run into each other again sometime.	/home/stefan/bin/script.rpyc	406
+dewquest_cc99147f	a	Try to be on time with your academic assignments from now on.	/home/stefan/bin/script.rpyc	407
+dewquest_296c1d5d	d	I'll try!	/home/stefan/bin/script.rpyc	408
+dewquest_eb6c3535	a	Stay safe, kid.	/home/stefan/bin/script.rpyc	409
+dewquest_ec80717c	d	I knew that guy was swell.	/home/stefan/bin/script.rpyc	414
+dewquest_82e4a6ae	d	Finally I'm able to get my dew!	/home/stefan/bin/script.rpyc	415
+dewquest_72c5df2e	d	Better hurry now, or else I'll really be late.	/home/stefan/bin/script.rpyc	416
+dewquest_38d7875c		Finally the dew was in reach for our hero.	/home/stefan/bin/script.rpyc	417
+dewquest_b18773ee		Little did he know that nothing is quite as it seems at this store.	/home/stefan/bin/script.rpyc	418
+dewquest_4cc62d11		Well it pretty much is, but it's slightly off.	/home/stefan/bin/script.rpyc	419
+dewquest_f3abe612		You catch my drift right?	/home/stefan/bin/script.rpyc	420
+store_c43015cc	d	So this is it.	/home/stefan/bin/script.rpyc	434
+store_26722abc	d	Makes more sense to get Dew here than in the locker room I suppose.	/home/stefan/bin/script.rpyc	435
+store_6f0bfe8c	c	Well hello there.	/home/stefan/bin/script.rpyc	440
+store_bb05bfeb	c	I'm Carlton.	/home/stefan/bin/script.rpyc	441
+store_d29668d0	c	Carlton.	/home/stefan/bin/script.rpyc	442
+store_3f776bca	c	It's Carlton you're talking to.	/home/stefan/bin/script.rpyc	443
+store_148d2733	c	That's Carlton.	/home/stefan/bin/script.rpyc	444
+store_d29668d0_1	c	Carlton.	/home/stefan/bin/script.rpyc	445
+store_75ebb054	c	It's Carlton.	/home/stefan/bin/script.rpyc	446
+store_bb9df3fd	c	Could you make me a sandwhich?	/home/stefan/bin/script.rpyc	448
+store_95f20a05	d	NoooOOOooo!	/home/stefan/bin/script.rpyc	451
+store_b70ae762	d	What the fuck man.	/home/stefan/bin/script.rpyc	452
+store_732aace7	d	I'm just here to buy some shit.	/home/stefan/bin/script.rpyc	453
+store_660a1e79	d	Not to make some casual faggot a sandwich.	/home/stefan/bin/script.rpyc	454
+store_6c22ab19	c	Dew?	/home/stefan/bin/script.rpyc	456
+store_7da19aab	c	Doritoes?	/home/stefan/bin/script.rpyc	457
+store_86077f26	c	Weed?	/home/stefan/bin/script.rpyc	458
+store_b3213609	c	You want it?	/home/stefan/bin/script.rpyc	459
+store_60589c08	c	It's yours my friend.	/home/stefan/bin/script.rpyc	460
+store_f5561fbb	c	As long as you...	/home/stefan/bin/script.rpyc	461
+store_0f80a022	c	Make me a sandwich.	/home/stefan/bin/script.rpyc	463
+shopping_8f45f923	d	Uhhh...	/home/stefan/bin/script.rpyc	469
+shopping_3268d3e2	d	Whatever.	/home/stefan/bin/script.rpyc	470
+shopping_3ed58210		I think I'll take some...	/home/stefan/bin/script.rpyc	471
+shopping_4001e4cf	d	I'll just have some Mountain Dew.	/home/stefan/bin/script.rpyc	475
+shopping_d927d347	c	I'm sorry we're all out of regular dew.	/home/stefan/bin/script.rpyc	476
+shopping_5a140128	c	Except...	/home/stefan/bin/script.rpyc	477
+shopping_6a0ed07b	c	Maybe you want to try some new stuff?	/home/stefan/bin/script.rpyc	478
+shopping_af27a43f	d	What?!	/home/stefan/bin/script.rpyc	479
+shopping_2755f1b6	d	Who could deny new dew?	/home/stefan/bin/script.rpyc	480
+shopping_fcf5ee3d	d	A true MLG noscoper gotta always know his dew.	/home/stefan/bin/script.rpyc	481
+shopping_a921db32	d	Count me the fuck in!	/home/stefan/bin/script.rpyc	482
+shopping_04a781c0	c	I appreciate your enthusiasm!	/home/stefan/bin/script.rpyc	483
+shopping_dacc1e76	c	You just have to sign this.	/home/stefan/bin/script.rpyc	484
+shopping_6ef7bb25	d	Sure whatever.	/home/stefan/bin/script.rpyc	485
+shopping_bf856aca	c	It's just in case something happens.	/home/stefan/bin/script.rpyc	486
+shopping_2db92336	d	Wha-	/home/stefan/bin/script.rpyc	487
+shopping_1191a191	c	Nothing. Don't worry about it.	/home/stefan/bin/script.rpyc	488
+shopping_f05a9196	c	This shit's completely new, it's genetically modified Dew Plant designed to be inhaled through smoking!	/home/stefan/bin/script.rpyc	489
+shopping_adf5aadc	c	That way you can absorb 200%% more Hi-MLG Particles.	/home/stefan/bin/script.rpyc	490
+shopping_6734abd7	d	Shit sounds dank.	/home/stefan/bin/script.rpyc	491
+shopping_b6f1a873	c	So...	/home/stefan/bin/script.rpyc	492
+shopping_f4a76a2b	c	Could you make me a sandwich?	/home/stefan/bin/script.rpyc	494
+shopping_483fb597	d	I actually wanted to keep this one...	/home/stefan/bin/script.rpyc	495
+shopping_b7b5f5a7	d	But this is worth it.	/home/stefan/bin/script.rpyc	496
+shopping_84559abf		Duane hands Carlton the sandwich he saved up.	/home/stefan/bin/script.rpyc	497
+shopping_afe8b154	d	Here you go, keep the change.	/home/stefan/bin/script.rpyc	498
+shopping_9fb7d3b3	c	You're my favorite customer.	/home/stefan/bin/script.rpyc	499
+shopping_2a0f82ea	c	Here you go!	/home/stefan/bin/script.rpyc	500
+shopping_df776528	c	Try it right now!	/home/stefan/bin/script.rpyc	501
+shopping_aaf5715c	d	Did you bring a lighter?	/home/stefan/bin/script.rpyc	502
+shopping_46e0d778	c	NoooOOOooo!	/home/stefan/bin/script.rpyc	504
+shopping_2b5084bb	d	Damn.	/home/stefan/bin/script.rpyc	505
+shopping_ed90a923	c	Just kidding, here you go!	/home/stefan/bin/script.rpyc	506
+shopping_60bb8774	d	Thanks m80.	/home/stefan/bin/script.rpyc	507
+shopping_2f39b34f	d	One dozen doritoes please.	/home/stefan/bin/script.rpyc	514
+shopping_4fe5ed37	c	I'm sorry Duane, I can't give credit.	/home/stefan/bin/script.rpyc	515
+shopping_c179e7bb	c	Come back when you have a little more...	/home/stefan/bin/script.rpyc	516
+shopping_9e85c623	c	Mmmmhhh	/home/stefan/bin/script.rpyc	517
+shopping_93a4028b	c	Sandwiches.	/home/stefan/bin/script.rpyc	518
+shopping_616c96b1		Shit, I can't afford that.	/home/stefan/bin/script.rpyc	519
+shopping_a61828f0		Wasn't there something else I had to get?	/home/stefan/bin/script.rpyc	520
+shopping_04c3d19c	d	I'll have some weed.	/home/stefan/bin/script.rpyc	525
+shopping_274b1df6	c	This is illegal you know.	/home/stefan/bin/script.rpyc	526
+shopping_0ddc3aed	d	I was just kidding.	/home/stefan/bin/script.rpyc	530
+shopping_8e2aca88		What was it that I wanted again?	/home/stefan/bin/script.rpyc	531
+shopping_c082c08e	d	What the fuck?	/home/stefan/bin/script.rpyc	535
+shopping_0ebd2846	d	You just offered it to me.	/home/stefan/bin/script.rpyc	536
+shopping_116590d2	c	No I didn't.	/home/stefan/bin/script.rpyc	537
+shopping_76279a8c	d	Just give me the weed you fucking scrub!	/home/stefan/bin/script.rpyc	538
+shopping_7657d182	d	I'll fucking 360 noscope you!	/home/stefan/bin/script.rpyc	539
+shopping_59577eac	c	Seems like I gotta call the PoPo on you.	/home/stefan/bin/script.rpyc	540
+shopping_af27a43f_1	d	What?!	/home/stefan/bin/script.rpyc	541
+shopping_d29d4dbd		Shit this wasn't supposed to happen!	/home/stefan/bin/script.rpyc	543
+shopping_410f26b3		What was I thinking?!	/home/stefan/bin/script.rpyc	544
+shopping_eec91805		That trap was so obvious.	/home/stefan/bin/script.rpyc	545
+shopping_634596da		Maaan, how could you ask for weed in a store?	/home/stefan/bin/script.rpyc	554
+shopping_3714a01c		The popo is listening 24/7	/home/stefan/bin/script.rpyc	555
+shopping_35b38bad		Young nigga got it bad cause I'm brown.	/home/stefan/bin/script.rpyc	556
+shopping_726f4ee3		GAME OVER	/home/stefan/bin/script.rpyc	557
+japan_a20cefa7		...	/home/stefan/bin/script.rpyc	566
+japan_8afb4865	d	Ugh...	/home/stefan/bin/script.rpyc	567
+japan_683a4ddf		What the hell just happened?	/home/stefan/bin/script.rpyc	568
+japan_7a252bf5		I can't remember anything after I said goodbye to Aniki...	/home/stefan/bin/script.rpyc	569
+japan_aa499b88		Anyway, where in god's name am I?	/home/stefan/bin/script.rpyc	570
+japan_62dcce9e	d	There's cherry blossoms everywhere.	/home/stefan/bin/script.rpyc	571
+japan_4937e2a7		It almost feels like this is another country all together.	/home/stefan/bin/script.rpyc	572
+japan_ec012af7		What should I do?	/home/stefan/bin/script.rpyc	573
+japan_565620a9		I have no idea where I am and I didn't make any progress with my dew assignment either.	/home/stefan/bin/script.rpyc	574
+japan_40e2071f		I see some mountains in the distance.	/home/stefan/bin/script.rpyc	575
+japan_a2fd627b		Maybe I can find someone there who can tell me where exactly this is.	/home/stefan/bin/script.rpyc	576
+japan_0f04eaf2		There's also a forest close by.	/home/stefan/bin/script.rpyc	577
+japan_159da76a		Maybe I should try my luck there?	/home/stefan/bin/script.rpyc	578
+japan_c3def765		Given the circumstances, the most MLG decision would be...	/home/stefan/bin/script.rpyc	579
+japan_da5dad34	d	It's a shot in the dark whatever I pick, so I might as well try the forest.	/home/stefan/bin/script.rpyc	586
+japan_9e72244c		And so Duane went to the forest in search of someone who could explain this predicament to him.	/home/stefan/bin/script.rpyc	592
+japan_f69b184e		Chances to find someone were slim, but he had to do something.	/home/stefan/bin/script.rpyc	593
+japan_62ff1170	d	Maaan, it was further away than I thought.	/home/stefan/bin/script.rpyc	594
+japan_c43015cc	d	So this is it.	/home/stefan/bin/script.rpyc	599
+japan_ec8a5fdf	d	There's stairs here, so there must be some kind of civilisation around here.	/home/stefan/bin/script.rpyc	600
+japan_6f8b74f5		Duane wandered the forest in search of other people.	/home/stefan/bin/script.rpyc	601
+japan_245149f2	d	Helloooooo! Is anyone there?	/home/stefan/bin/script.rpyc	602
+japan_8f2fb3c3		No answer	/home/stefan/bin/script.rpyc	603
+japan_a5246964	d	This is hella weird, how the fuck did I end up like this.	/home/stefan/bin/script.rpyc	604
+japan_76eb63d8	d	Man this really sucks.	/home/stefan/bin/script.rpyc	605
+japan_88cd858a	d	I don't deserve this shit.	/home/stefan/bin/script.rpyc	606
+japan_43026ab8	d	I should've listened to my old man and joined the navy.	/home/stefan/bin/script.rpyc	607
+japan_f9d86b94	d	But I hated the smell of seawater and now I'm stuck.	/home/stefan/bin/script.rpyc	608
+japan_1e7be9a7	d	Running around wherever the hell without any clue where to go to.	/home/stefan/bin/script.rpyc	609
+japan_e94e8f7c	d	Like some goddamned casual.	/home/stefan/bin/script.rpyc	610
+japan_37489f85		As Duane walks around aimlessly, cursing his fate he spots something in the distance.	/home/stefan/bin/script.rpyc	611
+japan_05dbc29f	d	Wait, what's that?	/home/stefan/bin/script.rpyc	612
+japan_b273eac0	d	Rather, who's that?	/home/stefan/bin/script.rpyc	613
+japan_f618a257	d	It's...	/home/stefan/bin/script.rpyc	617
+japan_8304107d	d	A girl!	/home/stefan/bin/script.rpyc	618
+japan_229a2c25		Some fancy kind of clothes she's wearing.	/home/stefan/bin/script.rpyc	619
+japan_c0993acb	d	This is my chance to find out where I am.	/home/stefan/bin/script.rpyc	620
+japan_11171159	d	Heeeey! You there!	/home/stefan/bin/script.rpyc	621
+japan_76228717	"Mysterious Girl"	...	/home/stefan/bin/script.rpyc	622
+japan_3d247339		She's leaving.	/home/stefan/bin/script.rpyc	628
+japan_b83401df	d	Yoooo what the fuck?	/home/stefan/bin/script.rpyc	629
+japan_deedc1ed	d	Did I say something wrong?	/home/stefan/bin/script.rpyc	630
+japan_8340bfa6	d	Anyway this is no time to think about shit like that.	/home/stefan/bin/script.rpyc	631
+japan_72421745	d	I must find out where I am, so I gotta go after her!	/home/stefan/bin/script.rpyc	632
+japan_842ef340		Duane chased after the mysterious girl with all his might.	/home/stefan/bin/script.rpyc	638
+japan_d31476eb		Even though he wasn't a slow runner, he had no hopes of catching up to her.	/home/stefan/bin/script.rpyc	639
+japan_c47d67a7	d	Fuck!	/home/stefan/bin/script.rpyc	641
+japan_0e66c486	d	She's just too fast.	/home/stefan/bin/script.rpyc	642
+japan_fa0e2f39		Due to Duane's MLG quickscoper eyes, he managed to follow her movements for a while.	/home/stefan/bin/script.rpyc	644
+japan_e1d6add1		But it just wasn't possible for him to keep it up for long.	/home/stefan/bin/script.rpyc	645
+japan_b398e3c6		He eventually lost her when he reached a mountain area.	/home/stefan/bin/script.rpyc	646
+mountain_354c088a	d	What a pretty mountain area.	/home/stefan/bin/script.rpyc	657
+mountain_3d7d615c	d	Mountain area...	/home/stefan/bin/script.rpyc	658
+mountain_a8a16b17	d	Mountain...	/home/stefan/bin/script.rpyc	659
+mountain_6a1273fe	d	SHIT! This just makes me crave some Mountain Dew!	/home/stefan/bin/script.rpyc	660
+mountain_c495ee73	d	But enough of that!	/home/stefan/bin/script.rpyc	663
+mountain_3682fdf2	d	I gotta find that girl! Or anyone for that matter.	/home/stefan/bin/script.rpyc	664
+mountain_58fc4c6a	d	If only she weren't that fast.	/home/stefan/bin/script.rpyc	665
+mountain_12e8b55c	d	I completely lost her.	/home/stefan/bin/script.rpyc	666
+mountain_6de1bc55	d	Gotta get my mind together.	/home/stefan/bin/script.rpyc	668
+mountain_28641d08	d	Where would there be people in such an area?	/home/stefan/bin/script.rpyc	669
+mountain_89cad070		I remember those old Kung Fu movies.	/home/stefan/bin/script.rpyc	670
+mountain_f3cb6813		They often took place in a mountaineous area which had a shrine.	/home/stefan/bin/script.rpyc	671
+mountain_4a2e1af5		Is it possible for one to be located here?	/home/stefan/bin/script.rpyc	672
+mountain_bebc7570		Considering there was this girl here, there must be some place for people to stay at.	/home/stefan/bin/script.rpyc	675
+mountain_a8da32b1		It can't be she wanders around here by herself.	/home/stefan/bin/script.rpyc	676
+mountain_e0a5f2ed		Especially with that fancy getup of hers.	/home/stefan/bin/script.rpyc	677
+mountain_dc308260	d	Guess I just gotta keep looking for something.	/home/stefan/bin/script.rpyc	679
+mountain_b084f914		After countless hours of walking around the mountains, and several instances of just wanting to ragequit everything...	/home/stefan/bin/script.rpyc	684
+mountain_93c7810e	d	What the hell!	/home/stefan/bin/script.rpyc	691
+mountain_2c0fc600	d	I knew it!	/home/stefan/bin/script.rpyc	692
+mountain_35f2b4a2	d	My quickscoper senses never fail me after all!	/home/stefan/bin/script.rpyc	693
+mountain_76228717	"Mysterious Girl"	...	/home/stefan/bin/script.rpyc	698
+mountain_8f569e28	"Mysterious Girl"	How did you find this shrine?	/home/stefan/bin/script.rpyc	699
+mountain_35ac4c21	d	I've seen you before in the forest!	/home/stefan/bin/script.rpyc	703
+mountain_50784719	"Mysterious Girl"	No you haven't.	/home/stefan/bin/script.rpyc	704
+mountain_4d91c32d	d	Finally I found someone!	/home/stefan/bin/script.rpyc	708
+pointless2_02d55bfc	d	Yes I have!	/home/stefan/bin/script.rpyc	728
+pointless2_50784719	"Mysterious Girl"	No you haven't.	/home/stefan/bin/script.rpyc	729
+shrine_d4bc5cd9	d	Could you please tell me where this place is?	/home/stefan/bin/script.rpyc	734
+shrine_ac4ea255	"Mysterious Girl"	What do you mean "This place"?	/home/stefan/bin/script.rpyc	735
+shrine_17e35f03	d	Well, I have no idea how I even got here.	/home/stefan/bin/script.rpyc	736
+shrine_5438f9b6	d	Like, where is this shrine located?	/home/stefan/bin/script.rpyc	737
+shrine_e807817b	d	How do I get to MLG Academy from here?	/home/stefan/bin/script.rpyc	738
+shrine_46787be5	d	And where's the next Dew Store?	/home/stefan/bin/script.rpyc	739
+shrine_4c63a603	d	I still haven't gotten any for my class.	/home/stefan/bin/script.rpyc	740
+shrine_bedce689	"Mysterious Girl"	MLG Academy?	/home/stefan/bin/script.rpyc	741
+shrine_305ad2ed	"Mysterious Girl"	Dew Store?	/home/stefan/bin/script.rpyc	742
+shrine_a1f527cd	"Mysterious Girl"	There are no such things in this world.	/home/stefan/bin/script.rpyc	743
+shrine_f19eaa0a	d	Yoooo, how can you EVEN live?	/home/stefan/bin/script.rpyc	744
+shrine_53d3a055	d	Wait what do you mean this world?	/home/stefan/bin/script.rpyc	745
+shrine_c2c8f834	"Mysterious Girl"	I thought I noticed something strange about you the first time I saw you...	/home/stefan/bin/script.rpyc	746
+shrine_68ca630f	"Mysterious Girl"	You are not originally part of this world.	/home/stefan/bin/script.rpyc	747
+shrine_0ff8c7d1	"Mysterious Girl"	You must have stumbled in here somehow.	/home/stefan/bin/script.rpyc	748
+shrine_82d4e84f	d	Yo are you high, lady?	/home/stefan/bin/script.rpyc	749
+shrine_e244a688	"Mysterious Girl"	The name is Reimu.	/home/stefan/bin/script.rpyc	750
+shrine_4576230e	r	And no.	/home/stefan/bin/script.rpyc	751
+shrine_c7609d3f	r	This is the Animu Land.	/home/stefan/bin/script.rpyc	752
+shrine_40654098	d	Anime? So it's a world full of weebshit?	/home/stefan/bin/script.rpyc	753
+shrine_f7d63c56	d	Though there used to be some pretty MLG anime on TV.	/home/stefan/bin/script.rpyc	754
+shrine_ee66dc42	r	So our reality is visible in your televison, interesting.	/home/stefan/bin/script.rpyc	755
+shrine_dce5f24a	d	Whatever, how the hell do I get back?!	/home/stefan/bin/script.rpyc	756
+shrine_30281c33	d	I'm so late for my Dew!	/home/stefan/bin/script.rpyc	757
+shrine_a1d957f1	r	I am not aware of any way to venture through realms.	/home/stefan/bin/script.rpyc	758
+shrine_a46a5951	r	But since you already did it once there surely must be a way.	/home/stefan/bin/script.rpyc	759
+shrine_8aac220f	r	I can't directly help you, but maybe you'll find someone to assisst you in the next town.	/home/stefan/bin/script.rpyc	760
+shrine_0f6ec8a7	r	Here take this map, it will lead you there.	/home/stefan/bin/script.rpyc	761
+shrine_0e761bf5		---Duane received a map of the Animu Land---	/home/stefan/bin/script.rpyc	762
+shrine_0f293fc2	d	It won't even be visible on my HUD?	/home/stefan/bin/script.rpyc	763
+shrine_8a1d112a	d	Maaan.	/home/stefan/bin/script.rpyc	764
+shrine_ca3f4447	d	But thanks, I suppose.	/home/stefan/bin/script.rpyc	765
+shrine_a02c5a23	r	Stay safe.	/home/stefan/bin/script.rpyc	766
+shrine_173cf8c8	r	This world is likely very different to yours.	/home/stefan/bin/script.rpyc	767
+shrine_60c7697c	r	I'm sure we'll cross paths again.	/home/stefan/bin/script.rpyc	768
+shrine_3e57876f	d	Thanks!	/home/stefan/bin/script.rpyc	769
+shrine_8c35a1ef		What did she mean by that?	/home/stefan/bin/script.rpyc	770
+shrine_69355ce0		And so Duane made way for the next big city.	/home/stefan/bin/script.rpyc	776
+shrine_16265979		What will he encounter on his bizarre adventure through this new world?	/home/stefan/bin/script.rpyc	777
+shrine_79e9d0a2		I'm sure that even here, lots of MLG adventures await our hero!	/home/stefan/bin/script.rpyc	778
+town_e2eb3c7d	d	So this is it, huh?	/home/stefan/bin/script.rpyc	790
+town_a89d2b18	d	This is one big city.	/home/stefan/bin/script.rpyc	796
+town_fcb0ecfd	d	Reimu said, I should look around and talk to people in order to find out how to get back.	/home/stefan/bin/script.rpyc	797
+town_09814730		Where do I start?	/home/stefan/bin/script.rpyc	798
+town_19c0fe46		Let's see...	/home/stefan/bin/script.rpyc	799
+town_85ea4001		I can see an Arcade over there.	/home/stefan/bin/script.rpyc	800
+town_810e9cde		It's been a while since I practiced my quickscoping, so a quick game wouldn't hurt.	/home/stefan/bin/script.rpyc	801
+town_18c79be8		And maybe I'll find someone to help me out there.	/home/stefan/bin/script.rpyc	802
+town_a33db64b		There's also a mall close by.	/home/stefan/bin/script.rpyc	803
+town_93fb2de1		I could go there to check if they have some dew.	/home/stefan/bin/script.rpyc	804
+town_6782fd05		Though Reimu said there's no such thing here...	/home/stefan/bin/script.rpyc	805
+town_373639ce		There's even a river going through the town.	/home/stefan/bin/script.rpyc	806
+town_b0d06748		Isn't that where tough guys have their manly battles and romances start to bloom in anime?	/home/stefan/bin/script.rpyc	807
+town_29e3108a		Not that I watch any of that.	/home/stefan/bin/script.rpyc	808
+town_13d174ad		But maybe there'll be something of use there.	/home/stefan/bin/script.rpyc	809
+town_de27be40		I could also just try to talk to some of the people walking around here.	/home/stefan/bin/script.rpyc	810
+town_54d1f14a		At least one of them has got to know something right?	/home/stefan/bin/script.rpyc	811
+town_c771733f		Hmm, I think I'll...	/home/stefan/bin/script.rpyc	812
+townHub_79b50469	d	How the fuck did I end up here again?	/home/stefan/bin/script.rpyc	825
+townHub_68d3f581	d	I really suck at this!	/home/stefan/bin/script.rpyc	826
+townHub_fbb308b8		lul	/home/stefan/bin/script.rpyc	831
+townHub_fcbb8bd3		I really need to get that dew now.	/home/stefan/bin/script.rpyc	835
+townHub_24fb198c		Might as well check the mall.	/home/stefan/bin/script.rpyc	836
+townHub_3ad7fd79	"That Man"	Harro!	/home/stefan/bin/script.rpyc	843
+townHub_40836799	lu	Ohohohohoho!	/home/stefan/bin/script.rpyc	850
+arcade_574f4a9f		FILLER	/home/stefan/bin/script.rpyc	858
+mall_a5e5b7f2	d	This mall is fucking huge.	/home/stefan/bin/script.rpyc	868
+mall_f2b25257	d	I wonder if I'll even be able to locate any dew in here.	/home/stefan/bin/script.rpyc	869
+mall_09408c83	d	Even though I was told there is no dew here, I can not believe such a thing.	/home/stefan/bin/script.rpyc	870
+mall_02176627	d	How would the people live without it?	/home/stefan/bin/script.rpyc	871
+mall_91fd9d46	d	There must be something that's at least similiar to dew here.	/home/stefan/bin/script.rpyc	872
+mall_2f2dd27a	d	I will...	/home/stefan/bin/script.rpyc	873
+mall_e2130399	d	It can't be that hard to find something here.	/home/stefan/bin/script.rpyc	877
+mall_efe1c697		Duane spent a couple of hours looking through the mall.	/home/stefan/bin/script.rpyc	880
+mall_ae203151	d	I don't think I'll be able to find anything in here by myself.	/home/stefan/bin/script.rpyc	885
+mall_9d22e788	d	I'll just ask that girl over there I suppose.	/home/stefan/bin/script.rpyc	886
+mall_98acb114	d	Yo excuse me!	/home/stefan/bin/script.rpyc	891
+mall_e7dd1195	mb	Eh?	/home/stefan/bin/script.rpyc	892
+mall_accee0e7	mb	What the fuck?	/home/stefan/bin/script.rpyc	893
+mall_bf1ce630	mb	You talking to me?	/home/stefan/bin/script.rpyc	894
+mall_9cce41a4		This chick's kinda hot.	/home/stefan/bin/script.rpyc	895
+mall_bb1d7073		Better watch out what I'm gonna say next.	/home/stefan/bin/script.rpyc	896
+mall_78e834e0	mb	What kind of stuck up little bitch are you?	/home/stefan/bin/script.rpyc	900
+mall_d2179ebb	mb	Ugh... Excuse me?	/home/stefan/bin/script.rpyc	904
+mall_aeda791f	mb	Could you fucking ask me that in a human language again?	/home/stefan/bin/script.rpyc	905
+mall_02285eee	mb	...	/home/stefan/bin/script.rpyc	909
+mall_6b213223	mb	Are you fucking retarded or something?	/home/stefan/bin/script.rpyc	910
+mbRoute_9d5b4a43	mb	Whatever.	/home/stefan/bin/script.rpyc	915
+mbRoute_c6911f22	mb	Just... like...	/home/stefan/bin/script.rpyc	916
+mbRoute_7bba9d13	mb	Go over there.	/home/stefan/bin/script.rpyc	917
+mbRoute_d2f138c8	d	Thanks a lot bye!	/home/stefan/bin/script.rpyc	918
+mbRoute_02285eee	mb	...	/home/stefan/bin/script.rpyc	919
+mbRoute_8a0d59ed	mb	What a dweeb.	/home/stefan/bin/script.rpyc	920
+mbRoute_7f1aef8e		Duane went into the general direction he was pointed to.	/home/stefan/bin/script.rpyc	927
+mbRoute_c26f8d1d		He actually managed to find some dew!	/home/stefan/bin/script.rpyc	928
+mbRoute_180e3324		But on close inspection, he noticed something was off.	/home/stefan/bin/script.rpyc	933
+mbRoute_52a43770		Much to his dissapointment it was only a knockoff.	/home/stefan/bin/script.rpyc	934
+mbRoute_949d0a7a		Some kind of Japanese vegetable juice.	/home/stefan/bin/script.rpyc	941
+mbRoute_b92a3570	d	Well, I already went all this way.	/home/stefan/bin/script.rpyc	942
+mbRoute_c9c77dbd	d	And I'm way too late to be picky anyway.	/home/stefan/bin/script.rpyc	943
+mbRoute_bb269d42	d	Might as well get this...	/home/stefan/bin/script.rpyc	944
+mbRoute_d68726ef		Duane paid exactly 200 Yen.	/home/stefan/bin/script.rpyc	945
+mbRoute_ca7ca30c		---Duane received Popipo---	/home/stefan/bin/script.rpyc	946
+mbRoute_e273bcbd	d	It's better than nothing I suppose.	/home/stefan/bin/script.rpyc	951
+timewaster_fed61d70	d	I still have some time left.	/home/stefan/bin/script.rpyc	956
+timewaster_e4a856be	d	So I'll...	/home/stefan/bin/script.rpyc	957
+timewaster_111b7272	d	Wow there's so much to see!	/home/stefan/bin/script.rpyc	963
+timewaster_9eccd1e7	d	It's impossible to explore everything in just a single day!	/home/stefan/bin/script.rpyc	964
+timewaster_ca953cff	d	I think there's nothing else to do here.	/home/stefan/bin/script.rpyc	970
+timewaster_9648a125	d	For now...	/home/stefan/bin/script.rpyc	971
+timewaster_b7dca365	d	I'll just head back.	/home/stefan/bin/script.rpyc	972
+saveMb_68ff3748	d	It's kinda late already.	/home/stefan/bin/script.rpyc	984
+saveMb_85977751		As Duane walks down the street, he notices someone familiar.	/home/stefan/bin/script.rpyc	985
+saveMb_0433e965	y	Excuse me Miss, but could you please point me to the direction of this district's French Bakery?	/home/stefan/bin/script.rpyc	990
+saveMb_2c9d8806	y	I need to pick up a birthday cake for my little sister there.	/home/stefan/bin/script.rpyc	991
+saveMb_babfefec	mb	Ugh...	/home/stefan/bin/script.rpyc	992
+saveMb_3c98a36d	mb	Do I look like a fucking tourist guide to you?	/home/stefan/bin/script.rpyc	993
+saveMb_00270ad7	mb	I don't know no French Bakery around here.	/home/stefan/bin/script.rpyc	994
+saveMb_6abead28		Huh, she's with somebody else.	/home/stefan/bin/script.rpyc	995
+saveMb_f8ebd152		I can't really tell what their talking about, but she looks kinda distressed.	/home/stefan/bin/script.rpyc	996
+saveMb_cb85cdab		That guy is obviously dangerous!	/home/stefan/bin/script.rpyc	997
+saveMb_c3e5ca8d		I gotta step in!	/home/stefan/bin/script.rpyc	998
+saveMb_0bc0afa2	y	I'm terribly sorry to have bothered you then.	/home/stefan/bin/script.rpyc	999
+saveMb_c45ece29	y	I will go and ask somebo-	/home/stefan/bin/script.rpyc	1000
+saveMb_17928eaf	d	Hey! What the hell do you think you're doing?	/home/stefan/bin/script.rpyc	1001
+saveMb_f8c8f2a5	d	Could you piss off and leave her alone!?	/home/stefan/bin/script.rpyc	1002
+saveMb_d1642ce7	y	Huh?	/home/stefan/bin/script.rpyc	1003
+saveMb_9815742b	y	Are you perhaps talking to me?	/home/stefan/bin/script.rpyc	1004
+saveMb_e9eeba80	d	Damn straight I am.	/home/stefan/bin/script.rpyc	1005
+saveMb_98ba2c76	d	Now make like a fly and fuck off m8.	/home/stefan/bin/script.rpyc	1006
+saveMb_490c0f28	d	Better back the fuck up before you get smacked the fuck up!	/home/stefan/bin/script.rpyc	1007
+saveMb_95c17ec7	y	Excuse me young man! I didn't realize I was such a bother.	/home/stefan/bin/script.rpyc	1008
+saveMb_2270e7b0	y	I will take leave immediately.	/home/stefan/bin/script.rpyc	1009
+saveMb_dfc0a389	y	Have a good evening, sir.	/home/stefan/bin/script.rpyc	1010
+saveMb_4f45d16d	y	And to you too M'Lady.	/home/stefan/bin/script.rpyc	1011
+saveMb_cd9e6a62	y	*Tips Katana*	/home/stefan/bin/script.rpyc	1012
+saveMb_4bba979c		With that the Yakuza left.	/home/stefan/bin/script.rpyc	1017
+saveMb_950201b2	d	Everything alright...	/home/stefan/bin/script.rpyc	1018
+saveMb_d47356f1		I just realized I don't even know her name yet.	/home/stefan/bin/script.rpyc	1019
+saveMb_62c5b60e	d	Ah you're that girl from before!	/home/stefan/bin/script.rpyc	1020
+saveMb_bab82eac	d	I didn't even ask you for your name yet.	/home/stefan/bin/script.rpyc	1021
+saveMb_5c990d6a	d	You really helped me out back there.	/home/stefan/bin/script.rpyc	1022
+saveMb_018f34d4		Sorta.	/home/stefan/bin/script.rpyc	1023
+saveMb_aea8c012	mb	Sure.	/home/stefan/bin/script.rpyc	1024
+saveMb_9d5b4a43	mb	Whatever.	/home/stefan/bin/script.rpyc	1025
+saveMb_0623a241	mb	You know what? Normally I wouldn't talk to guys like you.	/home/stefan/bin/script.rpyc	1026
+saveMb_53b60a55	mb	But since you got that annoying dick off my back, I guess can make an exception.	/home/stefan/bin/script.rpyc	1027
+saveMb_cdd71672	ab	The name's Audrey Belrose.	/home/stefan/bin/script.rpyc	1028
+saveMb_f1a173c7	ab	But don't get any ideas. Don't get used to such treatment.	/home/stefan/bin/script.rpyc	1029
+saveMb_d060b8c0		Audrey Belrose, what a lovely name.	/home/stefan/bin/script.rpyc	1030
+saveMb_10c5cba1	d	My name's Duane, and I got the sickest moves at MLG Academy.	/home/stefan/bin/script.rpyc	1031
+saveMb_c25d0c44	ab	MLG Academy..., you still go to school?	/home/stefan/bin/script.rpyc	1032
+saveMb_0fb0b221	ab	What a fucking waste of time.	/home/stefan/bin/script.rpyc	1033
+saveMb_a74d00da	d	Watch it m80.	/home/stefan/bin/script.rpyc	1034
+saveMb_af6961ca	d	That shit's off the hook.	/home/stefan/bin/script.rpyc	1035
+saveMb_11703231	d	We smoke weed everday, drink dew, eat doritoes and noscope scrublords everday.	/home/stefan/bin/script.rpyc	1036
+saveMb_beaa401e	ab	A school that allows weed, huh?	/home/stefan/bin/script.rpyc	1037
+saveMb_c8211d9e	ab	Don't think I got the whole night to talk with you.	/home/stefan/bin/script.rpyc	1038
+saveMb_ef3e5265	ab	I gotta go now, I've got more important things to do.	/home/stefan/bin/script.rpyc	1039
+saveMb_0087ac69		Whoa what a hottie!	/home/stefan/bin/script.rpyc	1040
+saveMb_b69177c0		I'll rate 8/8 m80.	/home/stefan/bin/script.rpyc	1041
+saveMb_80fed8ef		And she has obviously completely fallen for me.	/home/stefan/bin/script.rpyc	1042
+saveMb_a23c7898		Unlike with that weird girl at the riverside, I'm sure I won't get friendzoned this time!	/home/stefan/bin/script.rpyc	1045
+riverside_d3c4154c	d	For some reason I feel compelled to go to the Riverside.	/home/stefan/bin/script.rpyc	1052
+riverside_338915cf	d	There's nothing else for me to do here.	/home/stefan/bin/script.rpyc	1062
+riverside_8279ba3d	d	I should get back to the city and pick another spot	/home/stefan/bin/script.rpyc	1063
+riverside_823b8fc1		Duane arrived at the riverside on his search for information.	/home/stefan/bin/script.rpyc	1066
+riverside_7b35eec3		The wind is pretty strong today.	/home/stefan/bin/script.rpyc	1068
+riverside_73407fca	d	Hmm, it looks pretty neat here.	/home/stefan/bin/script.rpyc	1069
+riverside_fb28f372	d	My dank sense is tingling.	/home/stefan/bin/script.rpyc	1070
+riverside_39025c78	d	I feel a strange kind of atmosphere here.	/home/stefan/bin/script.rpyc	1071
+riverside_6e94742b	d	Even the wind seems somewhat...	/home/stefan/bin/script.rpyc	1072
+riverside_3219b02b	d	troubled.	/home/stefan/bin/script.rpyc	1073
+riverside_405cea68	d	There doesn't seem to be anyone around.	/home/stefan/bin/script.rpyc	1074
+riverside_d577f30e	d	It won't help me at all with my problem but...	/home/stefan/bin/script.rpyc	1075
+riverside_5138b6b0	d	Maybe I should sit down for a while and review stuff for class.	/home/stefan/bin/script.rpyc	1076
+riverside_98f15ad9	d	It seems pretty chill here.	/home/stefan/bin/script.rpyc	1077
+riverside_eaa8db47	d	That may be just a waste of time though.	/home/stefan/bin/script.rpyc	1078
+riverside_188c80bb	d	I need to find someone to help me after all.	/home/stefan/bin/script.rpyc	1079
+riverside_58a187f2	d	I think I'll...	/home/stefan/bin/script.rpyc	1080
+riverside_6386f09a	d	Maaan, I can spare a bit of time here.	/home/stefan/bin/script.rpyc	1085
+riverside_1f02e49f	d	There's something about this place.	/home/stefan/bin/script.rpyc	1086
+riverside_0e861c72	d	What the fuck was this all about?	/home/stefan/bin/script.rpyc	1095
+riverside_6239b393	d	Why did I turn into such an autistic spaghetty monster there?!	/home/stefan/bin/script.rpyc	1096
+riverside_2cf33802	d	FUCK! FUCK! FUCK!	/home/stefan/bin/script.rpyc	1097
+riverside_a7fa9882	d	That was in no way MLG!	/home/stefan/bin/script.rpyc	1098
+riverside_b2e5f300	d	Should've just gone with "The wind is troubled." or some stupid shit like that.	/home/stefan/bin/script.rpyc	1099
+riverside_3df7ce2f	d	Fucking friendzoned again.	/home/stefan/bin/script.rpyc	1100
+riverside_ac5e9308	d	Jesus.	/home/stefan/bin/script.rpyc	1101
+riverside_bfbfab5e	d	Moping around here will not get me anywhere either though.	/home/stefan/bin/script.rpyc	1102
+riverside_c27f2184	d	I should get back to the city and make a plan on where to go next.	/home/stefan/bin/script.rpyc	1103
+riverside_46baecec	d	As inviting as this looks, I simply lack the time to sit around here.	/home/stefan/bin/script.rpyc	1111
+riverside_d71997d5	d	I'll head back to the town to see where I'll go next.	/home/stefan/bin/script.rpyc	1112
+riverside_70da0244		As Duane left a feeling striked him.	/home/stefan/bin/script.rpyc	1118
+riverside_121c7590		A feeling that made him aware that he missed out on something important.	/home/stefan/bin/script.rpyc	1119
+riverside_21bda3fb		A fated encounter so to speak.	/home/stefan/bin/script.rpyc	1120
+riverside_9218791b		There was something about this place after all.	/home/stefan/bin/script.rpyc	1121
+riverside_670923c8		Is Duane's Spring of Youth now over?	/home/stefan/bin/script.rpyc	1122
+riverside_213cf8b7		Will he not encounter any romance in the days of his passionate youth?	/home/stefan/bin/script.rpyc	1123
+riverside_4d0edfbc		One can only continue to watch him on his adventure to find out.	/home/stefan/bin/script.rpyc	1124
