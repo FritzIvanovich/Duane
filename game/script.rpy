@@ -1263,6 +1263,6 @@ label timewaster:
 
         "Just leave":
             d "I think there's nothing else to do here."
-            d "For now..."
+            d "For now...."
             d "I'll just head back."
             jump saveMb
