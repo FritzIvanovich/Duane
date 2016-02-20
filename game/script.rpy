@@ -67,6 +67,7 @@ image bg mall = "mall"
 image bg sidestreet = "sidestreet"
 image bg gameover = "gameover"
 image bg arcade = "arcade"
+image bg street = "street"
 
 image movie = Movie(size=(1280, 720), xpos=0, ypos=0, xanchor=0, yanchor=0)
 
@@ -922,7 +923,7 @@ label arcade:
                 d "Maybe I'll take a quick walk aroud and check this place out first"
 
                 play sound "sfx/steps.mp3"
-                with Fade(0.5, 5.0, 0.5)
+                with Fade(0.5, 3.0, 0.5)
                 with hpunch
 
                 un "uhm ... "
@@ -945,8 +946,6 @@ label arcade:
         "But her voice is so weak, you can hardly hear her over the sound of the arcade games"
 
         d "What do you want from me?"
-
-
 
         jump routeTomo
 
@@ -1114,12 +1113,32 @@ label saveMb:
     if yassan == True:
         "Unlike with that weird girl at the riverside, I'm sure I won't get friendzoned this time!"
 
-    "Hmm... maybe I should follow her, this is a great chance!"
-    jump stalkMb
+    "But what should i do now? The night is still young."
+    menu:
+        "I should follow her, this is a great chance!":
+            "Now I can find out where she lives! This is a huge chance!"
+            "Maybe she will even invite me over for dinner if she sees me there!"
+            play sound "dinner.wav"
+            "Well, maybe not, but I can't ignore this opportunity that just presented itself to me!"
+            "Duane followed Audrey like an ukranian Ninja!"
+            jump stalkMb
+        "Go Party even harder than you work":
+            "It's a beautiful night to have a Party!"
+            # What a horrible night to have a curse!
+            d "What the ... ?!"
+            "Suddenly time stopped and some weird shit was floating in the air"
+            "What the heck, well it doesn't matter anyways"
+            "I'll just go to the next club, gotta show 'em my sick moves!"
+
     return
 
 label stalkMb:
     "..."
+    show street
+    with Fade(0.5, 2.0, 0.5)
+    "..."
+    d "I lost her ... DAYUM!"
+    d "Who could have thought she is THAT fast on her legs!"
     return
 label routeTomo:
     return
