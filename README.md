@@ -20,15 +20,23 @@ Main Folder : */<renpy-folder>/Duane/
 Resources are in game folder under Duane/game
 
 In game folder, you will find:
+
   sfx - for Soundeffects
+
   bgm - for background music
+
   video - vor videos, duh
+
   images - for character and background images
+
   saves - saved games for testing
-  
+
   and :
+
   script.rpy - the main game script
+  
   options.rpy - option settings in for the VN engine
+
   screens.rpy - definition of the screens used
 
 ================================================================================
