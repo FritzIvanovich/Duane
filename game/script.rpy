@@ -71,6 +71,7 @@ image movie = Movie(size=(1280, 720), xpos=0, ypos=0, xanchor=0, yanchor=0)
 # define e = Character('Eileen', color="#c8ffc8")
 define d = Character('Duane', color="#c8ffc8")
 define a = Character('Billy Herrington', color="#c8ffc8")
+define ea = Character('El Aniki', color="#c8ffc8")
 define l = Character('Leatherman', color="#c8ffc8")
 define n = Character('Ultra Nigga', color="#c8ffc8")
 define c = Character('Carlton Banks', color="#c8ffc8")
@@ -316,7 +317,7 @@ label dewquest:
             a "It is Aniki's duty to protect the weak."
             d "You wot m-"
 
-            play music "bgm/standoff.mp3"
+            play music "bgm/standoff2.mp3"
 
             hide aniki 1
 
@@ -340,14 +341,14 @@ label dewquest:
             n "Impossible...! Is he really going to use THAT?!"
             n "Inconceivable! Can he really be THE MAN OF LEGEND?!"
             a "Hola, soy el Aniki!"
-            a "Yo soy el destructor del mal."
-            a "Comete esta!"
+            ea "Yo soy el destructor del mal."
+            ea "Comete esta!"
             n "Yo wait wait wait!"
             n "I don't want no trouble man!"
             n "I din do nuffin, I'm a good boy!"
             n "Please let me off man!"
-            a "Entiendo, amigo."
-            a "Vaya con dios..."
+            ea "Entiendo, amigo."
+            ea "Vaya con dios..."
 
             play sound "sfx/steps.mp3"
             hide nigga

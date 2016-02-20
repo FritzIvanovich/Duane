@@ -9,7 +9,7 @@
 *.rpyc
 *.rpyb
 *.bak
-game/save/persistent
+game/saves/persistent
 
 # Pycharm folder
 
