@@ -1,0 +1,10 @@
+# Text files and log files excluded
+
+*.txt
+*.log
+
+
+# Compiled renpy bytecode files excluded
+
+*.rpyc
+*.rpyb
