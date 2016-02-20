@@ -2,7 +2,7 @@
 
 *.txt
 *.log
-
+*.save
 
 # Compiled renpy bytecode files excluded
 
@@ -13,3 +13,4 @@
 # Pycharm folder
 
 **/.idea/*.*
+
