@@ -902,7 +902,7 @@ label arcade:
                             "Duane lost 1 Sanity Point!"
                             d "Dayum, I better not challenge her ever again!"
                             d "That Girl is totally scary!"
-                            return
+                            jump arcade_runner
 
                 elif yassan == True:
                     "But what if that girl is still around, I better be careful"

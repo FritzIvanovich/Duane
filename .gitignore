@@ -9,6 +9,8 @@
 *.rpyc
 *.rpyb
 *.bak
+*_reload*.save
+*auto*.save
 
 # Pycharm folder
 
