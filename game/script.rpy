@@ -43,6 +43,8 @@ image mb adachi = "audrey_adachi"
 image mb love = "audrey_blushing"
 image mb normal = "audrey_adachi"
 
+image tomo normal = "tomoko_cheery"
+
 image mtndew = "dew"
 image popipo = "popipo_dew"
 
@@ -64,6 +66,7 @@ image bg riverside = "riverside"
 image bg mall = "mall"
 image bg sidestreet = "sidestreet"
 image bg gameover = "gameover"
+image bg arcade = "arcade"
 
 image movie = Movie(size=(1280, 720), xpos=0, ypos=0, xanchor=0, yanchor=0)
 
@@ -81,6 +84,7 @@ define mb = Character('Mega Bitch', color="#c8ffc8")
 define ab = Character('Audrey Belrose', color="#c8ffc8")
 define t = Character('Tomoko Kuroki', color="#c8ffc8")
 define lu = Character('Luviagelita Edelfelt', color="#c8ffc8")
+define un = Character('???', color="#c8ffc8")
 define y = Character('Jolly Ol\' Companion', color="#c8ffc8")
 
 init:
@@ -92,6 +96,7 @@ init:
     $ luviaInteraction = 0
     $ aimless = False
     $ yassan = False
+    $ ran_away = False
 
 label splashscreen:
     scene black
@@ -340,7 +345,7 @@ label dewquest:
             n "That stance...!"
             n "Impossible...! Is he really going to use THAT?!"
             n "Inconceivable! Can he really be THE MAN OF LEGEND?!"
-            a "Hola, soy el Aniki!"
+            ea "Hola, soy el Aniki!"
             ea "Yo soy el destructor del mal."
             ea "Comete esta!"
             n "Yo wait wait wait!"
@@ -829,7 +834,9 @@ label townHub:
 
     menu:
         "Go to the Arcade":
-            "lul"
+            "Time to vent some stress and quicksope some n00bs"
+            "But where do I find a good place to do that, I wonder?"
+            "I guess that arcade over there seems like a good spot"
             jump arcade
 
         "Go to the Mall":
@@ -856,9 +863,91 @@ label townHub:
 
 label arcade:
 
-    "FILLER"
-    jump townHub
-    return
+    # Beginning of Tomoko Route
+
+    scene bg arcade
+    with dissolve
+
+    d "Hell yeah, thats what I'm TALKING about!"
+    play music "bgm/arcade.mp3"
+
+    label arcade_runner:
+        menu:
+            "Play for some time":
+                d "Now for some elite 420 tacticool gaming."
+                d "Gonna rek sum scrublords in this here fa-shizzle my nizzle."
+                d "Where the No scoping machine at?"
+
+                if yassan == True and ran_away == False:
+                    d "Eh?"
+                    d "The only quickscoper machine is already occupied."
+                    d "Hey? Are you finished soon you fukin' scrub?"
+                    "The person standing at the machine turned around ..."
+                    "Duane immediately recognized that it was someone he has seen before ..."
+                    d "Oh fuck! I gotta use my Special Technique!"
+                    "Duane learned Ability : <Joestar Family's Secret Technique>"
+
+                    menu:
+                        "Use <Joestar Family's Secret Technique>":
+                            $ ran_away = True
+                            "The girl stood up menacingly, a faint smile on her lips"
+                            "Then she started slowly walking towards Duane"
+                            d "There is no time! I have to use it NOW!"
+                            d "Nigerun dayo!"
+                            "Duane got away safely!"
+                        "Stand your ground":
+                            "Duane got rekt!"
+                            "Duane lost 1 Sanity Point!"
+                            d "Dayum, I better not challenge her ever again!"
+                            d "That Girl is totally scary!"
+                            return
+
+                elif yassan == True:
+                    "But what if that girl is still around, I better be careful"
+                    "Better to avoid going to the MLG section of the arcade!"
+                    jump arcade_runner
+
+                "Duane played Duanes Magical Weed Adventure"
+                "Duanes Intelligence decreased by 1"
+                "Duanes Dextery increased by 1"
+                "Duane gained 420 experience"
+                "In the arcade game of course, what did you expect?"
+                "This is not a RPG !"
+                "Now get on with the maingame, you cis-gendered white male oppressor!"
+
+                jump arcade_runner
+
+            "Look around this place":
+
+                d "Maybe I'll take a quick walk aroud and check this place out first"
+
+                play sound "sfx/steps.mp3"
+                with Fade(0.5, 5.0, 0.5)
+                with hpunch
+
+                un "uhm ... "
+                un "e-e-e-e ..."
+                un "... ex-excuse ..."
+                d "Huh?"
+                un "... ummmmm ..."
+                un "e-excuse ..."
+                un "... me ..."
+                d "Eh?"
+                "Where's that voice coming from?"
+                "Am I just imagining things?"
+
+        show tomo normal
+        with dissolve
+        t "Ummm ..."
+        t "I'm s-s-s-sorry"
+        "Oh it was a girl ..."
+        "But her voice is so weak, you can hardly hear her over the sound of the arcade games"
+
+        d "What do you want from me?"
+
+
+
+        jump routeTomo
 
 label mall:
 
@@ -952,27 +1041,6 @@ label mbRoute:
     d "It's better than nothing I suppose."
     jump timewaster
 
-label timewaster:
-
-    d "I still have some time left."
-    d "So I'll..."
-
-    menu:
-        "Have a look around":
-            scene black
-            with dissolve
-            d "Wow there's so much to see!"
-            d "It's impossible to explore everything in just a single day!"
-            scene bg mall
-            with dissolve
-            jump timewaster
-
-        "Just leave":
-            d "I think there's nothing else to do here."
-            d "For now..."
-            d "I'll just head back."
-            jump saveMb
-
 label saveMb:
 
     scene black
@@ -1045,9 +1113,15 @@ label saveMb:
     if yassan == True:
         "Unlike with that weird girl at the riverside, I'm sure I won't get friendzoned this time!"
 
+    "Hmm... maybe I should follow her, this is a great chance!"
+    jump stalkMb
     return
 
-
+label stalkMb:
+    "..."
+    return
+label routeTomo:
+    return
 label riverside:
 
     d "For some reason I feel compelled to go to the Riverside."
@@ -1128,3 +1202,24 @@ label riverside:
             jump townHub
 
     return
+
+label timewaster:
+
+    d "I still have some time left."
+    d "So I'll..."
+
+    menu:
+        "Have a look around":
+            scene black
+            with dissolve
+            d "Wow there's so much to see!"
+            d "It's impossible to explore everything in just a single day!"
+            scene bg mall
+            with dissolve
+            jump timewaster
+
+        "Just leave":
+            d "I think there's nothing else to do here."
+            d "For now..."
+            d "I'll just head back."
+            jump saveMb
