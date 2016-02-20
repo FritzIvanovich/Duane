@@ -909,13 +909,14 @@ label arcade:
                     "Better to avoid going to the MLG section of the arcade!"
                     jump arcade_runner
 
-                "Duane played Duanes Magical Weed Adventure"
-                "Duanes Intelligence decreased by 1"
-                "Duanes Dextery increased by 1"
-                "Duane gained 420 experience"
+                "Duane played Duanes Magical Weed Adventure."
+                "Duane leveled up!"
+                "Duanes Intelligence decreased by 1!"
+                "Duanes Dextery increased by 1!"
+                "Duane gained 420 experience!"
                 "In the arcade game of course, what did you expect?"
-                "This is not a RPG !"
-                "Now get on with the maingame, you cis-gendered white male oppressor!"
+                "This is not a fucking RPG!"
+                "Now get on with the maingame, you fucking nerd."
 
                 jump arcade_runner
 
@@ -1114,21 +1115,21 @@ label saveMb:
     if yassan == True:
         "Unlike with that weird girl at the riverside, I'm sure I won't get friendzoned this time!"
 
-    "But what should i do now? The night is still young."
+    "But what should I do now? The night is still young."
     menu:
         "I should follow her, this is a great chance!":
             "Now I can find out where she lives! This is a huge chance!"
             "Maybe she will even invite me over for dinner if she sees me there!"
             play sound "sfx/dinner.wav"
             "Well, maybe not, but I can't ignore this opportunity that just presented itself to me!"
-            "Duane followed Audrey like an ukranian Ninja!"
+            "Duane followed Audrey like an Ukranian Ninja!"
             jump stalkMb
         "Go Party even harder than you work":
             "It's a beautiful night to have a Party!"
             # What a horrible night to have a curse!
-            d "What the ... ?!"
-            "Suddenly time stopped and some weird shit was floating in the air"
-            "What the heck, well it doesn't matter anyways"
+            d "What the...?!"
+            "Suddenly time stopped and some weird shit was floating in the air."
+            "What the heck, well it doesn't matter anyways."
             "I'll just go to the next club, gotta show 'em my sick moves!"
             "Let's do this shit!"
             jump discoMb
@@ -1141,7 +1142,9 @@ label stalkMb:
     "..."
     d "Damn! I lost her ..."
     d "Who could have thought she is THAT fast on her legs!"
-    d "Well, now might aswell go to that disco over there"
+    d "If I didn't know any better I'd think she wante to get away from me."
+    d "Yeah right!"
+    d "Might as well just party at that disco over there."
 
     jump discoMb
 
