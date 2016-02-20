@@ -121,7 +121,6 @@ label splashscreen:
 
     return
 
-
 # The game starts here.
 label start:
 
