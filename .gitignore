@@ -12,4 +12,4 @@
 
 # Pycharm folder
 
-*/.idea/*
+**/.idea/*.*
