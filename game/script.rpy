@@ -68,6 +68,7 @@ image bg sidestreet = "sidestreet"
 image bg gameover = "gameover"
 image bg arcade = "arcade"
 image bg street = "street"
+image bg disco = "disco"
 
 image movie = Movie(size=(1280, 720), xpos=0, ypos=0, xanchor=0, yanchor=0)
 
@@ -868,9 +869,9 @@ label arcade:
 
     scene bg arcade
     with dissolve
+    play music "bgm/arcade.mp3"
 
     d "Hell yeah, thats what I'm TALKING about!"
-    play music "bgm/arcade.mp3"
 
     label arcade_runner:
         menu:
@@ -1129,6 +1130,8 @@ label saveMb:
             "Suddenly time stopped and some weird shit was floating in the air"
             "What the heck, well it doesn't matter anyways"
             "I'll just go to the next club, gotta show 'em my sick moves!"
+            "Let's do this shit!"
+            jump discoMb
 
     return
 
@@ -1138,7 +1141,19 @@ label stalkMb:
     "..."
     d "Damn! I lost her ..."
     d "Who could have thought she is THAT fast on her legs!"
+    d "Well, now might aswell go to that disco over there"
+
+    jump discoMb
+
+label discoMb:
+    show disco
+    with dissolve
+    play music "bgm/myon.mp3"
+
+    "Aww yeah, this is awesome!"
+    "The dancefloor is packed with people and the music is something all true MLG's strive for!"
     return
+
 label routeTomo:
     return
 label riverside:

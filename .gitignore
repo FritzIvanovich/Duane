@@ -2,16 +2,14 @@
 
 *.txt
 *.log
-*.save
+*AUTO*.save
 
 # Compiled renpy bytecode files excluded
 
 *.rpyc
 *.rpyb
 *.bak
-game/saves/persistent
 
 # Pycharm folder
 
 **/.idea/*.*
-
