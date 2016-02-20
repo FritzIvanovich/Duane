@@ -1133,11 +1133,10 @@ label saveMb:
     return
 
 label stalkMb:
-    "..."
     show street
     with Fade(0.5, 2.0, 0.5)
     "..."
-    d "I lost her ... DAYUM!"
+    d "Damn! I lost her ..."
     d "Who could have thought she is THAT fast on her legs!"
     return
 label routeTomo:
