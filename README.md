@@ -25,7 +25,7 @@ In game folder, you will find:
 
   bgm - for background music
 
-  video - vor videos, duh
+  video - for videos, duh
 
   images - for character and background images
 
