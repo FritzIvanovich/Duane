@@ -938,8 +938,9 @@ label arcade:
 
         show tomo normal
         with dissolve
-        t "Ummm ..."
-        t "I'm s-s-s-sorry"
+        un "Ummm ..."
+        un "I'm s-s-s-sorry ... "
+        un "... but ..."
         "Oh it was a girl ..."
         "But her voice is so weak, you can hardly hear her over the sound of the arcade games"
 
