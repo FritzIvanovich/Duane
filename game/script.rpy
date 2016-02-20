@@ -1255,7 +1255,7 @@ label timewaster:
         "Have a look around":
             scene black
             with dissolve
-            d "Wow there's so much to see!"
+            d "Wow there's so much to do, so much to see!"
             d "It's impossible to explore everything in just a single day!"
             scene bg mall
             with dissolve
