@@ -1152,10 +1152,19 @@ label discoMb:
 
     "Aww yeah, this is awesome!"
     "The dancefloor is packed with people and the music is something all true MLG's strive for!"
+    menu:
+        "Lets show me my moves!":
+            play sound "sfx/mymoves.wav"
+            d "Alright Guys! Lets do some dancing!"
+            play sound "sfx/mymoves2.wav"
+            d "Let's show me my moves!"
+
+
     return
 
 label routeTomo:
     return
+
 label riverside:
 
     d "For some reason I feel compelled to go to the Riverside."
