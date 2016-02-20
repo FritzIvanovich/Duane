@@ -1118,7 +1118,7 @@ label saveMb:
         "I should follow her, this is a great chance!":
             "Now I can find out where she lives! This is a huge chance!"
             "Maybe she will even invite me over for dinner if she sees me there!"
-            play sound "dinner.wav"
+            play sound "sfx/dinner.wav"
             "Well, maybe not, but I can't ignore this opportunity that just presented itself to me!"
             "Duane followed Audrey like an ukranian Ninja!"
             jump stalkMb
