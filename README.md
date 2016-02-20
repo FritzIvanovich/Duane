@@ -15,32 +15,21 @@ General Project Structure :
 
 $ git clone <git-address> // in the renpy main folder
 
-Duane /
-      - Readme.html
-      - README.md
-      - traceback.txt
-      - log.txt
-      - errors.txt
-      - / tmp
-        - navigation.json
-      / game
-        / images
-          - "Here all used Images like characters and Backgrounds are saved"
-        / saves
-          - "Folder for all Savegames"
-        / ProductionScreenshots
-          - "Screenshots for Programming Progress"
-        / cache
-          - "Do not modify"
-        / video
-          - "Folder for all video files, in .ogv or .webm format"
-        / sfx
-          - "Folder for sound effects, in .wav or .mp3 format"
-        / bgm
-          - "Folder for background music, in .wav or .mp3 format"
-        - script.rpy  "main game routine, contains all conversations"
-        - screens.rpy ""
-        - options.rpy ""
+Main Folder : */<renpy-folder>/Duane/
+
+Resources are in game folder under Duane/game
+
+In game folder, you will find:
+  sfx - for Soundeffects
+  bgm - for background music
+  video - vor videos, duh
+  images - for character and background images
+  saves - saved games for testing
+  
+  and :
+  script.rpy - the main game script
+  options.rpy - option settings in for the VN engine
+  screens.rpy - definition of the screens used
 
 ================================================================================
 
