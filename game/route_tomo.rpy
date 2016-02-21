@@ -84,8 +84,7 @@ label arcade:
 
         d "What do you want from me?"
 
-        jump cafeTomo
+        jump elTomo
 
-label cafeTomo:
+label elTomo:
     return
-#Konnichiwa Swordlings!
