@@ -84,7 +84,7 @@ label arcade:
 
         d "What do you want from me?"
 
-        jump cafeTomo
+        jump siestaTomo
 
-label cafeTomo:
+label siestaTomo:
     return
