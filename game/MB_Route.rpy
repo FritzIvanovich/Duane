@@ -125,14 +125,29 @@ label saveMb:
             "Well, maybe not, but I can't ignore this opportunity that just presented itself to me!"
             "Duane followed Audrey like an Ukranian Ninja!"
             jump stalkMb
+            
         "Go Party even harder than you work":
             "It's a beautiful night to have a Party!"
-            un "What a horrible night to have a curse!"
+            
+            stop music
+            play sound "sfx/horrible.wav"
+            un "What a horrible night to have a curse."
+            
+            scene bg sidestreetN
+            with dissolve
+            
+            play music "bgm/night.mp3"
+            
             d "What the...?!"
+            d "Who the hell just said that?"
             "Suddenly time stopped and some weird shit was floating in the air."
-            "What the heck, well it doesn't matter anyways."
-            "I'll just go to the next club, gotta show 'em my sick moves!"
-            "Let's do this shit!"
+            "There's a guy walking around throwing bottles of water on the ground."
+            d "I don't get any of this."
+            d "Those are some sick moves for normal walking though!"
+            d "Well it doesn't matter anyways."
+            d "Ain't nobody got time for that."
+            d "I'll just go to the next club, gotta show 'em my sick moves!"
+            d "Let's do this shit!"
             jump discoMb
 
     return
