@@ -94,6 +94,5 @@ label elTomo:
         jump cafeTomo
 
 label cafeTomo:
-    # show starfucks cafe
     return
 >>>>>>> fa467ac2a4981124bdb4f26999846c1aa872d9b0
