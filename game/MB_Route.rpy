@@ -267,5 +267,142 @@ label popipo:
 label barMb:    
     d "I don't think I feel up to try this weird shit yet."
     d "I'll visit the bar after all."
+    d "Huh? That girl smoking weed over there, isn't that-"
+    
+    show mb love
+    with dissolve
+    
+    if danced == True:
+        ab "Dude! I don't even know if it's because I'm so fucking high right now but..."
+        ab "Those moves of yours were something else."
+        ab "You actually don't seem to be that much of a dweeb after all."
+        $ lovePoints += 2
+        
+    d "Is that some weed you're smoking?"
+    ab "What the hell else would it be?"
+    
+    menu:
+        "This is illegal you know.":
+            d "This is illegal you know."
+            hide mb love
+            show mb normal
+            "Audrey will remember that."
+            ab "What the fuck are you on about?"
+            ab "Do I look like I give a fuck?"
+            ab "Didn't you endlessly talk about weed at your school before?"
+            ab "You can piss right off with your bullshit."
+            ab "And I even started to think you weren't such a fucking loser."
+            d "Uh..."
+            "WHY THE LITERAL FUCK DID I JUST SAY THAT?!"
+            "I'M ALL ABOUT THAT SHIT!"
+            "EVERY SECOND SENTENCE I UTTER IS ABOUT WEED!"
+            "AND MY FIRST IDEA WHEN TALKING TO A HOT GIRL IS THAT?!"
+            "I must have turned super autismal there for a moment."
+            "Jesus..."
+            d "Haha! Nah, it was a joke!"
+            d "Don't get your panties up in a bunch over it!"
+            d "Haha!"
+            ab "..."
+            ab "Dweeb."
+            d "Haha..."
+            $ lovePoints -= 2
+            "Shit, gotta recover from that."
+            jump drinkingGameStart
+            
+        "Give me some of that":
+            d "Yo, give me some of that dank shit too!"
+            ab "You wish!"
+            ab "Get some yourself, cunt."
+            ab "You won't be leeching the dank from me."
+            ab "Find yourself some fake ass hoe for that."
+            ab "Cause I sure as hell ain't the one."
+            d "Yeah I see that."
+            d "You gave me good advice."
+            ab "What? Do you star in gay porn now?"
+            "She's pretty protective of her weed."
+            "Pretty dank characteristic!"
+            
+        "Dank shit.":
+            d "Dank shit."
+            "Audrey will remember that."
+            ab "The dankest there is."
+            ab "You sure seem to know your shit."
+            d "I'm one of the top ranked students of MLG Academy after all!"
+            d "Snoop Dogg-sensei taught us a lot about that there dank."
+            ab "You know that academy of yours sounds more and more interesting the more you talk about it."
+            ab "You need to tell me more about it sometime~"
+            "Wow, I think I made a good impression on her."
+            $ lovePoints += 1
+            
+label drinkingGameStart:
+    
+    d "Anyway, how about we have some drinks together?"
+    ab "You know what? Why the fuck not? Sure."
+    "Nice!"
+    "I can use this chance to get her blastered!"
+    "That way I can work my magic even better!"
+    
+    "---You will now enter the drinking game---"
+    "---TUTORIAL---"
+    "---Select the drinks you want to give to Audrey.---"
+    "---Keep going until you think she had enough.---"
+    "---Just as in real life, be careful not to give her too much.---"
+    "---The right dosage might lead to something great.---"
+    "---Giving her too much can have fatal results.---"
+    "---Though these results may lead to an all new adventure!---"
+    "---Stay safe, kid.---"
+    d "Aight, here we go!"
+    jump drinkingGame
+    
+label drinkingGame:
+    
+    if drunk == 0:
+        ab "Bring it!"
+    elif drunk <= 2:
+        ab "I'm just getting started!"
+    elif drunk <= 5:
+        ab "I'm starting to really feel it now!"
+    elif drunk <= 8:
+        ab "This is the greatest party of all time!"
+        ab "Woooooooo~!"
+    elif drunk == 10:
+        ab "You know me well! I'm finally back~"
+    elif drunk <= 12:
+        ab "I feel like~ like..."
+        ab "I..."
+        ab "ZZZzzzZZZ..."
+        "Seems like there's no point to continue anymore."
+    elif drunk >= 13:
+        stop music
+        show mb normal
+        "Ominous Voice" "You shouldn't have done that."
+
+    menu:
+        "Whiskey":
+            "Audrey annihilates the Whiskey."
+            $ drunk += 5
+            jump drinkingGame
+            
+        "Long Island Ice Tea":
+            "Audrey slays the Long Island Ice Tea."
+            $ drunk += 3
+            jump drinkingGame
+            
+        "Beer":
+            "Audrey obliterates the beer."
+            $ drunk += 1
+            jump drinkingGame
+            
+        "Vodka Lemon":
+            "Audrey vanquishes the vodka lemon."
+            $ drunk += 2
+            jump drinkingGame
+            
+        "You've had enough for tonight.":
+            jump drinkingGameResult
+            
+label drinkingGameResult:
+    
+    "I think that's enough!"
     
     return

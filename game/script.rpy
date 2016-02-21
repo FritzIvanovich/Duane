@@ -102,6 +102,7 @@ init:
     $ ran_away = False
     $ lovePoints = 0
     $ danced = False
+    $ drunk = 0
 
 label splashscreen:
     scene black
