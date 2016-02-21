@@ -84,6 +84,7 @@ label arcade:
 
         d "What do you want from me?"
 
+
         jump elTomo
 
 label elTomo:
