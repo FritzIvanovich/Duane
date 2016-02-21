@@ -105,10 +105,10 @@ label saveMb:
     ab "A school that allows weed, huh?"
     ab "Don't think I got the whole night to talk with you."
     ab "I gotta go now, I've got more important things to do."
-    
+
     hide mb adachi
     with dissolve
-    
+
     "Whoa what a hottie!"
     "I'll rate 8/8 m80."
     "And she has obviously completely fallen for me."
@@ -162,6 +162,7 @@ label discoMb:
             d "Alright Guys! Lets do some dancing!"
             play sound "sfx/mymoves2.wav"
             d "Let's show me my moves!"
+            $ renpy.movie_cutscene('video/duanedancing.webm')
     #Watch this, Cloud.
 
 
