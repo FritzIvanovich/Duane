@@ -88,3 +88,4 @@ label arcade:
 
 label cafeTomo:
     return
+#Konnichiwa Swordlings!
