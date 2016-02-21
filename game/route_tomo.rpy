@@ -84,9 +84,8 @@ label arcade:
 
         d "What do you want from me?"
 
-        jump siestaTomo
+        jump cafeTomo
 
-label siestaTomo:
+label cafeTomo:
+    # show starfucks cafe
     return
-
-# Conflict here!
