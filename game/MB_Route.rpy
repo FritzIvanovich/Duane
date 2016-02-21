@@ -105,12 +105,16 @@ label saveMb:
     ab "A school that allows weed, huh?"
     ab "Don't think I got the whole night to talk with you."
     ab "I gotta go now, I've got more important things to do."
+    
+    hide mb adachi
+    with dissolve
+    
     "Whoa what a hottie!"
     "I'll rate 8/8 m80."
     "And she has obviously completely fallen for me."
 
     if yassan == True:
-        "Unlike with that weird girl at the riverside, I'm sure I won't get friendzoned this time!"
+        "Unlike that weird girl at the riverside, I'm sure I won't get friendzoned this time!"
 
     "But what should I do now? The night is still young."
     menu:
