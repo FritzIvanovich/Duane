@@ -9,8 +9,8 @@
 *.rpyc
 *.rpyb
 *.bak
-*_reload*.save
-*auto*.save
+*.save
+*/persistent
 
 # Pycharm folder
 
