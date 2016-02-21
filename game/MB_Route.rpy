@@ -127,7 +127,7 @@ label saveMb:
             jump stalkMb
         "Go Party even harder than you work":
             "It's a beautiful night to have a Party!"
-            # What a horrible night to have a curse!
+            un "What a horrible night to have a curse!"
             d "What the...?!"
             "Suddenly time stopped and some weird shit was floating in the air."
             "What the heck, well it doesn't matter anyways."
@@ -143,7 +143,7 @@ label stalkMb:
     "..."
     d "Damn! I lost her ..."
     d "Who could have thought she is THAT fast on her legs!"
-    d "If I didn't know any better I'd think she wante to get away from me."
+    d "If I didn't know any better I'd think she wanted to get away from me."
     d "Yeah right!"
     d "Might as well just party at that disco over there."
 
