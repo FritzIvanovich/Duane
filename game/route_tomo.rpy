@@ -87,5 +87,4 @@ label arcade:
         jump cafeTomo
 
 label cafeTomo:
-    # show starfucks cafe
     return
