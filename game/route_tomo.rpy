@@ -88,4 +88,5 @@ label arcade:
 
 label siestaTomo:
     return
-#Konnichiwa Swordlings!
+
+# Conflict here!
