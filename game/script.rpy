@@ -101,6 +101,7 @@ init:
     $ yassan = False
     $ ran_away = False
     $ lovePoints = 0
+    $ danced = False
 
 label splashscreen:
     scene black

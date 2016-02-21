@@ -120,9 +120,9 @@ label saveMb:
     menu:
         "I should follow her, this is a great chance!":
             "Now I can find out where she lives! This is a huge chance!"
-            "Maybe she will even invite me over for dinner if she sees me there!"
             play sound "sfx/dinner.wav"
-            "Well, maybe not, but I can't ignore this opportunity that just presented itself to me!"
+            "Maybe she will even invite me over for dinner if she sees me there!"
+            "Well, maybe not, but I can't ignore this opportunity now that it has just presented itself to me!"
             "Duane followed Audrey like an Ukranian Ninja!"
             jump stalkMb
             
@@ -157,7 +157,9 @@ label stalkMb:
     with Fade(0.5, 2.0, 0.5)
     "..."
     d "Damn! I lost her ..."
-    d "Who could have thought she is THAT fast on her legs!"
+    d "Who could have thought she is that..."
+    play sound "sfx/sanic.mp3"
+    d "FAST!"
     d "If I didn't know any better I'd think she wanted to get away from me."
     d "Yeah right!"
     d "Might as well just party at that disco over there."
@@ -178,7 +180,92 @@ label discoMb:
             play sound "sfx/mymoves2.wav"
             d "Let's show me my moves!"
             $ renpy.movie_cutscene('video/duanedancing.webm')
-    #Watch this, Cloud.
+            $ danced = True
+            d "Oh yeah!"
+            d "How'd you like that!?"
+            jump drinks
+            
+        "Let's get some drinks!":
+            jump drinks
+            
+label drinks:
+    if danced == True:
+        d "I really worked up a sweat there."
+    "I'm thirsty as a motherfucker!"
+    "I need to drink something fast."
+    "That reminds me..."
+    "I still got that weird drink I mistook for dew with me."
+    "I can also just get me some drinks at this club's bar."
+    d "I guess I'll..."
+    
+    menu:
+        "Drink Popipo":
+            jump popipo
+            
+        "Get some drinks":
+            jump barMb
 
+label popipo:    
+    show popipo
+    with dissolve
+    d "It looks just like any other drink."
+    d "Might as well try this shit!"
+    d "Here goes nothing!"
+    
+    scene black
+    with dissolve
+    play sound "sfx/gulp.wav"
+    "Duane chugs the bottle empty in one go."
+    d "Phew!"
+    
+    scene bg disco
+    with dissolve
+    d "This has some wack ass taste."
+    d "Oh well, I don't think it was tha-"
+    d "Never mind, I don't feel so MLG anymore. I think I'll go out for a bit."
+    
+    scene black 
+    with dissolve
+    play sound "sfx/steps.mp3"
+    "Duane left the disco."
+    
+    stop music
+    scene street
+    with dissolve
+    
+    play music "bgm/Bile.ogg"
+    
+    d "Oh man what the hell was this shit?!"
+    d "I thought vegetable juice is supposed to be healthy or some shit?!"
+    d "This just makes me feel like I'm dying."
+    d "Is this what people around here drink?"
+    d "I need to walk for a bit to catch a breather."
+    play sound "sfx/steps.mp3"
+    "..."
+    d "Yeah... I'm feeling better already..."
+    d "Why did this need to happen...?"
+    d "I wanted... to meet that qt again..."
+    d "There is no doubt about it..."
+    d "I'm positive..."
+    d "She has... acquired the power... of my love..."
+    d "I can't... leave it like that..."
+    d "Not in a place... like this..."
+    d "Just a bit more..."
+    d "And I can... go back to partying..."
+    d "And finally..."
+    d "Have my happy end..."
+    d "Just..."
+    d "JUST"
+    
+    scene black
+    play sound "sfx/fall.wav"
+    "..."
+    "Duane collapsed on the street!"
+    stop music
+    jump wakeUp
 
+label barMb:    
+    d "I don't think I feel up to try this weird shit yet."
+    d "I'll visit the bar after all."
+    
     return
