@@ -162,6 +162,7 @@ label discoMb:
             d "Alright Guys! Lets do some dancing!"
             play sound "sfx/mymoves2.wav"
             d "Let's show me my moves!"
+    #Watch this, Cloud.
 
 
     return
