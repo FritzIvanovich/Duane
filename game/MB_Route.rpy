@@ -321,7 +321,7 @@ label barMb:
             ab "Find yourself some fake ass hoe for that."
             ab "Cause I sure as hell ain't the one."
             d "Yeah I see that."
-            d "You gave me good advice. ⚣"
+            d "♂♂♂ You gave me good advice. ♂♂♂"
             ab "What? Do you star in gay porn now?"
             "She's pretty protective of her weed."
             "Pretty dank characteristic!"
