@@ -45,6 +45,8 @@ image mb normal = "audrey_adachi"
 
 image tomo normal = "tomoko_cheery"
 
+image bear = "shirokuma"
+
 image mtndew = "dew"
 image popipo = "popipo_dew"
 
@@ -70,6 +72,7 @@ image bg gameover = "gameover"
 image bg arcade = "arcade"
 image bg street = "street"
 image bg disco = "disco"
+image bg cafetomo = "cafe"
 
 image movie = Movie(size=(1280, 720), xpos=0, ypos=0, xanchor=0, yanchor=0)
 
@@ -88,6 +91,7 @@ define ab = Character('Audrey Belrose', color="#c8ffc8")
 define t = Character('Tomoko Kuroki', color="#c8ffc8")
 define lu = Character('Luviagelita Edelfelt', color="#c8ffc8")
 define un = Character('???', color="#c8ffc8")
+define sk = Character('Shirokuma', color="#c8ffc8")
 define y = Character('Jolly Ol\' Companion', color="#c8ffc8")
 
 init:
