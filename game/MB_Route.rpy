@@ -56,7 +56,8 @@ label saveMb:
     show yakuza at left
     with dissolve
     y "Excuse me Miss, but could you please point me to the direction of this district's French Bakery?"
-    y "I need to pick up a birthday cake for my little sister there."
+    y "I need to pick up a birthday cake for my sick little sister there."
+    y "Even though she has to spend it in the hospital, I'd like her to have the best possible birthday."
     mb "Ugh..."
     mb "Do I look like a fucking tourist guide to you?"
     mb "I don't know no French Bakery around here."
@@ -102,10 +103,22 @@ label saveMb:
     d "Watch it m80."
     d "That shit's off the hook."
     d "We smoke weed everday, drink dew, eat doritoes and noscope scrublords everday."
-    ab "A school that allows weed, huh?"
-    ab "Don't think I got the whole night to talk with you."
+    ab "Weed?"
+    ab "In school?"
+    ab "Are you like, for real?"
+    d "It is MLG academy after all."
+    hide mb normal
+    show mb love
+    ab "What the fuck?"
+    ab "It might not be such a waste of time after all."
+    hide mb love
+    show mb normal
+    ab "Anyway."
+    ab "Don't think I got the whole night to talk to you."
     ab "I gotta go now, I've got more important things to do."
+    ab "See ya."
 
+    play sound "sfx/steps.mp3"
     hide mb adachi
     with dissolve
 
@@ -144,6 +157,7 @@ label saveMb:
             "There's a guy walking around throwing bottles of water on the ground."
             d "I don't get any of this."
             d "Those are some sick moves for normal walking though!"
+            d "Maybe I should try walking like this..."
             d "Well it doesn't matter anyways."
             d "Ain't nobody got time for that."
             d "I'll just go to the next club, gotta show 'em my sick moves!"
@@ -280,9 +294,14 @@ label barMb:
     if danced == True:
         ab "Dude! I don't even know if it's because I'm so fucking high right now but..."
         ab "Those moves of yours were something else."
-        ab "You actually don't seem to be that much of a dweeb after all."
+        ab "You seemed like a totally different person on the dance floor."
+        ab "Like..."
+        ab "Not as much of a dweeb, you know?"
         $ lovePoints += 2
+        play sound "sfx/slinkUp2.mp3"
         "Audrey is impressed!"
+        "Oh yeah!"
+        "Bitches are all over my moves!"
 
     d "Is that some weed you're smoking?"
     ab "What the hell else would it be?"
@@ -296,6 +315,7 @@ label barMb:
             ab "What the fuck are you on about?"
             ab "Are you like, for real?"
             ab "Like, seriously?"
+            ab "Ugh!"
             ab "Do I look like I give a fuck?"
             ab "Didn't you endlessly talk about weed at your school before?"
             ab "You can like piss right off with your bullshit."
@@ -304,8 +324,9 @@ label barMb:
             "WHY THE LITERAL FUCK DID I JUST SAY THAT?!"
             "I'M ALL ABOUT THAT SHIT!"
             "EVERY SECOND SENTENCE I UTTER IS ABOUT WEED!"
+            "IT FLOWS THROUGH MY VEINS!"
             "AND MY FIRST IDEA WHEN TALKING TO A HOT GIRL IS THAT?!"
-            "I must have turned super autismal there for a moment."
+            "I turned super autismal there for a moment."
             "Jesus..."
             d "Haha! Nah, it was a joke!"
             d "Don't get your panties up in a bunch over it!"
@@ -322,8 +343,9 @@ label barMb:
             d "Yo, give me some of that dank shit too!"
             ab "You wish!"
             ab "Get some yourself, cunt."
-            ab "You won't be leeching the dank from me."
-            ab "Find yourself some fake ass hoe for that."
+            ab "Like, who the fuck do you think you are?"
+            ab "Ugh..."
+            ab "Find yourself some fake ass hoe to leech off."
             ab "Cause I sure as hell ain't the one."
             d "Yeah I see that."
             d "♂♂♂ You gave me good advice. ♂♂♂"
@@ -339,8 +361,9 @@ label barMb:
             d "I'm one of the top ranked students of MLG Academy after all!"
             d "Snoop Dogg-sensei taught us a lot about that there dank."
             ab "You know that academy of yours sounds more and more interesting the more you talk about it."
-            ab "You need to tell me more about it sometime~"
+            ab "You need to tell me more about it sometime~♥"
             "Wow, I think I made a good impression on her."
+            play sound "sfx/slinkUp1.mp3"
             "Audrey is impressed!"
             $ lovePoints += 1
 
@@ -360,6 +383,8 @@ label drinkingGameStart:
     "---The right dosage might lead to something great.---"
     "---Giving her too much can have fatal results.---"
     "---Though these results may lead to an all new adventure!---"
+    "---But don't forget.---"
+    "---Winners don't do drugs!---"
     "---Stay safe, kid.---"
     d "Aight, here we go!"
     jump drinkingGame
