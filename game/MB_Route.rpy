@@ -277,6 +277,7 @@ label barMb:
         ab "Those moves of yours were something else."
         ab "You actually don't seem to be that much of a dweeb after all."
         $ lovePoints += 2
+        "Audrey is impressed!"
         
     d "Is that some weed you're smoking?"
     ab "What the hell else would it be?"
@@ -288,9 +289,11 @@ label barMb:
             show mb normal
             "Audrey will remember that."
             ab "What the fuck are you on about?"
+            ab "Are you like, for real?"
+            ab "Like, seriously?"
             ab "Do I look like I give a fuck?"
             ab "Didn't you endlessly talk about weed at your school before?"
-            ab "You can piss right off with your bullshit."
+            ab "You can like piss right off with your bullshit."
             ab "And I even started to think you weren't such a fucking loser."
             d "Uh..."
             "WHY THE LITERAL FUCK DID I JUST SAY THAT?!"
@@ -306,6 +309,7 @@ label barMb:
             ab "Dweeb."
             d "Haha..."
             $ lovePoints -= 2
+            "Audrey disliked that."
             "Shit, gotta recover from that."
             jump drinkingGameStart
             
@@ -332,6 +336,7 @@ label barMb:
             ab "You know that academy of yours sounds more and more interesting the more you talk about it."
             ab "You need to tell me more about it sometime~"
             "Wow, I think I made a good impression on her."
+            "Audrey is impressed!"
             $ lovePoints += 1
             
 label drinkingGameStart:
@@ -367,33 +372,48 @@ label drinkingGame:
         ab "Woooooooo~!"
     elif drunk == 10:
         ab "You know me well! I'm finally back~"
-    elif drunk <= 12:
+    elif drunk <= 13:
         ab "I feel like~ like..."
         ab "I..."
         ab "ZZZzzzZZZ..."
         "Seems like there's no point to continue anymore."
-    elif drunk >= 13:
+    elif drunk > 13:
         stop music
         show mb normal
+        "..."
+        hide mb normal
+        play sound "sfx/fall.wav"
+        with hpunch
+        scene black
+        with dissolve
+        "..."
         "Ominous Voice" "You shouldn't have done that."
+        "..."
+        "..."
+        "..."
+        jump courtEnding
 
     menu:
         "Whiskey":
+            play sound "sfx/gulp.wav"
             "Audrey annihilates the Whiskey."
             $ drunk += 5
             jump drinkingGame
             
         "Long Island Ice Tea":
-            "Audrey slays the Long Island Ice Tea."
+            play sound "sfx/gulp.wav"
+            "Audrey conquers the Long Island... Ice Tea."
             $ drunk += 3
             jump drinkingGame
             
         "Beer":
+            play sound "sfx/gulp.wav"
             "Audrey obliterates the beer."
             $ drunk += 1
             jump drinkingGame
             
         "Vodka Lemon":
+            play sound "sfx/gulp.wav"
             "Audrey vanquishes the vodka lemon."
             $ drunk += 2
             jump drinkingGame
