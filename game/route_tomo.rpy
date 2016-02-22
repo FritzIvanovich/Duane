@@ -45,10 +45,11 @@ label arcade:
                     jump arcade_runner
 
                 "Duane played Duanes Magical Weed Adventure."
+                "Duane gained 420 experience!"
+                play sound "sfx/skillUp.mp3"
                 "Duane leveled up!"
                 "Duanes Intelligence decreased by 1!"
                 "Duanes Dextery increased by 1!"
-                "Duane gained 420 experience!"
                 "In the arcade game of course, what did you expect?"
                 "This is not a fucking RPG!"
                 "Now get on with the maingame, you fucking nerd."
