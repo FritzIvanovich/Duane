@@ -242,13 +242,18 @@ label popipo:
     d "I need to walk for a bit to catch a breather."
     play sound "sfx/steps.mp3"
     "..."
-    d "Yeah... I'm feeling better already..."
+    d "Yeah..."
+    d "I'm feeling better already..."
     d "Why did this need to happen...?"
-    d "I wanted... to meet that qt again..."
+    d "I wanted..."
+    d "to meet that qt again..."
     d "There is no doubt about it..."
     d "I'm positive..."
-    d "She has... acquired the power... of my love..."
-    d "I can't... leave it like that..."
+    d "She has..."
+    d "acquired the power..."
+    d "of my love..."
+    d "I can't..."
+    d "leave it like that..."
     d "Not in a place... like this..."
     d "Just a bit more..."
     d "And I can... go back to partying..."
@@ -367,11 +372,13 @@ label drinkingGame:
         ab "I'm just getting started!"
     elif drunk <= 5:
         ab "I'm starting to really feel it now!"
-    elif drunk <= 8:
+    elif drunk <= 9:
         ab "This is the greatest party of all time! ♥"
         ab "Woooooooo~!"
     elif drunk == 10:
         ab "You know me well! I'm finally back~"
+        "She's looking..."
+        "Genki as hell!"
     elif drunk <= 11:
         ab "I feel like~ like..."
         ab "I..."
