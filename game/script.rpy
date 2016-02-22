@@ -43,7 +43,10 @@ image mb adachi = "audrey_adachi"
 image mb love = "audrey_blushing"
 image mb normal = "audrey_adachi"
 
-image tomo normal = "tomoko_cheery"
+image tomo normal = "tomoko_normal"
+
+image tomo cheery = "tomoko_cheery"
+image tomo adachi = "tomoko_adachi"
 
 image bear = "shirokuma"
 
@@ -89,6 +92,7 @@ define r = Character('Reimu Hakurei', color="#c8ffc8")
 define mb = Character('Mega Bitch', color="#c8ffc8")
 define ab = Character('Audrey Belrose', color="#c8ffc8")
 define t = Character('Tomoko Kuroki', color="#c8ffc8")
+define tm = Character('Momoko', color="#c8ffc8")
 define lu = Character('Luviagelita Edelfelt', color="#c8ffc8")
 define un = Character('???', color="#c8ffc8")
 define sk = Character('Shirokuma', color="#c8ffc8")

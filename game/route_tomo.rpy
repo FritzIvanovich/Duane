@@ -87,7 +87,7 @@ label arcade:
         # some conversation
         " Filler"
         d "Gotta go now, bye!"
-        hide tomo normal
+        hide tomo far
         with dissolve
         show black
         with dissolve
@@ -199,5 +199,6 @@ label cafeTomo:
     label interrupt_tomo:
         show tomo normal at right
         with hpunch
-        t "I ... found you ... *huff*"
+        tm "*huff*"
+        tm "I ... found you ... *huff*"
     jump cafeTomo
