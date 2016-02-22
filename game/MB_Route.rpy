@@ -125,19 +125,19 @@ label saveMb:
             "Well, maybe not, but I can't ignore this opportunity now that it has just presented itself to me!"
             "Duane followed Audrey like an Ukranian Ninja!"
             jump stalkMb
-            
+
         "Go Party even harder than you work":
             "It's a beautiful night to have a Party!"
-            
+
             stop music
             play sound "sfx/horrible.wav"
             un "What a horrible night to have a curse."
-            
+
             scene bg sidestreetN
             with dissolve
-            
+
             play music "bgm/night.mp3"
-            
+
             d "What the...?!"
             d "Who the hell just said that?"
             "Suddenly time stopped and some weird shit was floating in the air."
@@ -184,10 +184,10 @@ label discoMb:
             d "Oh yeah!"
             d "How'd you like that!?"
             jump drinks
-            
+
         "Let's get some drinks!":
             jump drinks
-            
+
 label drinks:
     if danced == True:
         d "I really worked up a sweat there."
@@ -197,44 +197,44 @@ label drinks:
     "I still got that weird drink I mistook for dew with me."
     "I can also just get me some drinks at this club's bar."
     d "I guess I'll..."
-    
+
     menu:
         "Drink Popipo":
             jump popipo
-            
+
         "Get some drinks":
             jump barMb
 
-label popipo:    
+label popipo:
     show popipo
     with dissolve
     d "It looks just like any other drink."
     d "Might as well try this shit!"
     d "Here goes nothing!"
-    
+
     scene black
     with dissolve
     play sound "sfx/gulp.wav"
     "Duane chugs the bottle empty in one go."
     d "Phew!"
-    
+
     scene bg disco
     with dissolve
     d "This has some wack ass taste."
     d "Oh well, I don't think it was tha-"
     d "Never mind, I don't feel so MLG anymore. I think I'll go out for a bit."
-    
-    scene black 
+
+    scene black
     with dissolve
     play sound "sfx/steps.mp3"
     "Duane left the disco."
-    
+
     stop music
     scene street
     with dissolve
-    
+
     play music "bgm/Bile.ogg"
-    
+
     d "Oh man what the hell was this shit?!"
     d "I thought vegetable juice is supposed to be healthy or some shit?!"
     d "This just makes me feel like I'm dying."
@@ -256,7 +256,7 @@ label popipo:
     d "Have my happy end..."
     d "Just..."
     d "JUST"
-    
+
     scene black
     play sound "sfx/fall.wav"
     "..."
@@ -264,24 +264,24 @@ label popipo:
     stop music
     jump wakeUp
 
-label barMb:    
+label barMb:
     d "I don't think I feel up to try this weird shit yet."
     d "I'll visit the bar after all."
     d "Huh? That girl smoking weed over there, isn't that-"
-    
+
     show mb love
     with dissolve
-    
+
     if danced == True:
         ab "Dude! I don't even know if it's because I'm so fucking high right now but..."
         ab "Those moves of yours were something else."
         ab "You actually don't seem to be that much of a dweeb after all."
         $ lovePoints += 2
         "Audrey is impressed!"
-        
+
     d "Is that some weed you're smoking?"
     ab "What the hell else would it be?"
-    
+
     menu:
         "This is illegal you know.":
             d "This is illegal you know."
@@ -312,7 +312,7 @@ label barMb:
             "Audrey disliked that."
             "Shit, gotta recover from that."
             jump drinkingGameStart
-            
+
         "Give me some of that":
             d "Yo, give me some of that dank shit too!"
             ab "You wish!"
@@ -321,11 +321,11 @@ label barMb:
             ab "Find yourself some fake ass hoe for that."
             ab "Cause I sure as hell ain't the one."
             d "Yeah I see that."
-            d "You gave me good advice."
+            d "You gave me good advice. ⚣"
             ab "What? Do you star in gay porn now?"
             "She's pretty protective of her weed."
             "Pretty dank characteristic!"
-            
+
         "Dank shit.":
             d "Dank shit."
             "Audrey will remember that."
@@ -338,15 +338,15 @@ label barMb:
             "Wow, I think I made a good impression on her."
             "Audrey is impressed!"
             $ lovePoints += 1
-            
+
 label drinkingGameStart:
-    
+
     d "Anyway, how about we have some drinks together?"
     ab "You know what? Why the fuck not? Sure."
     "Nice!"
     "I can use this chance to get her blastered!"
     "That way I can work my magic even better!"
-    
+
     "---You will now enter the drinking game---"
     "---TUTORIAL---"
     "---Select the drinks you want to give to Audrey.---"
@@ -358,9 +358,9 @@ label drinkingGameStart:
     "---Stay safe, kid.---"
     d "Aight, here we go!"
     jump drinkingGame
-    
+
 label drinkingGame:
-    
+
     if drunk == 0:
         ab "Bring it!"
     elif drunk <= 2:
@@ -368,7 +368,7 @@ label drinkingGame:
     elif drunk <= 5:
         ab "I'm starting to really feel it now!"
     elif drunk <= 8:
-        ab "This is the greatest party of all time!"
+        ab "This is the greatest party of all time! ♥"
         ab "Woooooooo~!"
     elif drunk == 10:
         ab "You know me well! I'm finally back~"
@@ -399,30 +399,30 @@ label drinkingGame:
             "Audrey annihilates the Whiskey."
             $ drunk += 5
             jump drinkingGame
-            
+
         "Long Island Ice Tea":
             play sound "sfx/gulp.wav"
             "Audrey conquers the Long Island... Ice Tea."
             $ drunk += 3
             jump drinkingGame
-            
+
         "Beer":
             play sound "sfx/gulp.wav"
             "Audrey obliterates the beer."
             $ drunk += 1
             jump drinkingGame
-            
+
         "Vodka Lemon":
             play sound "sfx/gulp.wav"
             "Audrey vanquishes the vodka lemon."
             $ drunk += 3
             jump drinkingGame
-            
+
         "You've had enough for tonight.":
             jump drinkingGameResult
-            
+
 label drinkingGameResult:
-    
+
     "I think that's enough!"
-    
+
     return
