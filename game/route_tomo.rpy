@@ -68,32 +68,116 @@ label arcade:
                 un "e-e-e-e ..."
                 un "... ex-excuse ..."
                 d "Huh?"
-                un "... ummmmm ..."
-                un "e-excuse ..."
-                un "... me ..."
+                un "ummmmm ... "
+                extend "e-e-excuse ... "
+                extend "me ..."
                 d "Eh?"
                 "Where's that voice coming from?"
                 "Am I just imagining things?"
 
         show tomo normal
         with dissolve
-        un "Ummm ..."
-        un "I'm s-s-s-sorry ... "
-        un "... but ..."
+        un "Ummm..."
+        show tomo flip
+        extend "I'm s-s-s-sorry..."
+        show tomo blush
+        extend "but..."
+        show tomo shy
         "Oh it was a girl ..."
         "But her voice is so weak, you can hardly hear her over the sound of the arcade games"
-
         d "What do you want from me?"
-        # some conversation
-        " Filler"
-        d "Gotta go now, bye!"
-        hide tomo far
+
+        show tomoko_normal
+        un "Aaaah!" with vpunch
+        "Aaaah! "
+        extend "Why did she just scream like that! "
+        "That startled me!"
+        d "Calm down."
+        menu:
+            "Just ...":
+                d "Just ... "
+                extend "what do you wanna tell me?"
+                d "Spit it out!"
+                un "Eeeek!" with hpunch
+                "Damn, looks like she's one of THOSE types..."
+                "??? will remember this..."
+                $ lovePoints -= 1
+
+            "* Calm her down *":
+                d "Breathe in ..."
+                extend "and out"
+                tm "*breathing in heavily*"
+                tm "*exhaling loudly*"
+                d "Yeah, feeling better now?"
+                d "Then start again, what do you want?"
+                $ lovePoints += 2
+
+            "Ask slowly so even a baby can understand":
+                d "Okay"
+                d "Now, "
+                extend "tell "
+                extend "me "
+                extend "what "
+                extend "you "
+                extend "want "
+                extend "from "
+                extend "me."
+                $ lovePoints += 1
+
+        tm "Ummmmm..."
+        tm "You ... you see ..."
+        tm "You lost your b-b-bottle of something"
+        scene arcade with None
+        show popipo
+        with dissolve
+        d "What's that?"
+        d "I don't remeber owning somthing like that."
+        "On closer inspection though ..."
+        "It looks similar to MTN DEW I must admit"
+        d "Where'd you find this?"
+        hide popipo
+        show tomo normal
+        with dissolve
+        un "When, umm, you ran into me earlier."
+        un "It fell down and i picked it up."
+        show tomo blush
+        un "Heh, heheh ..."
+        show tomo shy
+
+        d "Uhm, thanks ... "
+        extend "I guess?"
+        d "Whats your name?"
+        un "Aaaaah" with vpunch
+        show tomo blush
+        un "My-my ... "
+        extend "name ... "
+        extend "is To-"
+        extend "tomo-"
+        un "mo ..."
+        extend " moko ..."
+        d "Ah okay, got it!"
+        d "By the way I'm Duane! The most awesome MLG quickscoper in the milky way!"
+        d "Anyways, thanks for the bottle!"
+        "Duane received ???-bottle"
+        tm "Ah ... "
+        show tomo shy
+        extend "hah hah ... "
+        extend "heh heh ... "
+        extend "No problem ..."
+
+        d "Nice to meet ya, but I gotta go now!"
+        d "Momoko...? "
+        extend "Was it? Right? "
+        extend "See ya!"
+        show tomo annoyed
+        tm "Eh ... "
+        extend "w-w-w-wait... "
+        extend "My name is not..."
+        hide tomo annoyed
         with dissolve
         show black
         with dissolve
-        "Oh man ... filler"
         jump cafeTomo
-
 
 label cafeTomo:
 
@@ -102,7 +186,7 @@ label cafeTomo:
     scene bg cafetomo
     with dissolve
 
-    d "This is a really nice place. I crave for some freshly coffee so badly!"
+    d "This is a really nice place. I suddenly crave for some freshly coffee so badly!"
     "After I met that strange girl earlier, I feel strangly exhausted."
     "A cup of coffee ought to bring me back up to speed!"
 

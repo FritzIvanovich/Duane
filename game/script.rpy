@@ -44,6 +44,10 @@ image mb love = "audrey_blushing"
 image mb normal = "audrey_adachi"
 
 image tomo normal = "tomoko_normal"
+image tomo flip = im.Flip("tomoko_normal.png", horizontal=True)
+image tomo blush = "tomoko_blush"
+image tomo shy = "tomoko_shy"
+image tomo annoyed = "tomoko_annoyed"
 
 image tomo cheery = "tomoko_cheery"
 image tomo adachi = "tomoko_adachi"
