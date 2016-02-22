@@ -372,12 +372,12 @@ label drinkingGame:
         ab "Woooooooo~!"
     elif drunk == 10:
         ab "You know me well! I'm finally back~"
-    elif drunk <= 13:
+    elif drunk <= 11:
         ab "I feel like~ like..."
         ab "I..."
         ab "ZZZzzzZZZ..."
         "Seems like there's no point to continue anymore."
-    elif drunk > 13:
+    elif drunk > 11:
         stop music
         show mb normal
         "..."
@@ -415,7 +415,7 @@ label drinkingGame:
         "Vodka Lemon":
             play sound "sfx/gulp.wav"
             "Audrey vanquishes the vodka lemon."
-            $ drunk += 2
+            $ drunk += 3
             jump drinkingGame
             
         "You've had enough for tonight.":
