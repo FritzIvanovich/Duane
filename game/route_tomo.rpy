@@ -228,7 +228,8 @@ label cafeTomo:
             sk "I'm just a shopowner here."
             "Why am I still here, I should have run away like sanic!"
             "But something tells me I can trust this creature."
-            "Duanes Trust increased by 2"
+            play sound "sfx/skillUp.mp3"
+            "Duanes Trust increased!"
             d "Okay, I'll stay, for now ..."
             d "So ... What's the deal with you?"
             sk "Well, simply put..."
@@ -277,12 +278,117 @@ label cafeTomo:
     sk "Maybe you want something to eat?"
     sk "We have a special offer today too."
     sk "If you're interested."
-
-    # Some funny discussion Here
-    "Filler"
+    menu:
+        "Tomo Blend":
+            d "Oh Boy! I'm so thirsty, I could drink an octorok!"
+            sk "Wha-?"
+            d "You know-"
+            jump interrupt_tomo
+            
+        "Cofee and Tea and then Special Offer":
+            sk "Isn't that a bit much at once?"
+            d "I don't think so, Tim."
+            sk "Wha-?"
+            jump interrupt_tomo
+            
+        "Huh?":
+            jump interrupt_tomo
     label interrupt_tomo:
         show tomo normal at right
         with hpunch
         tm "*huff*"
         tm "I ... found you ... *huff*"
+        tm "Aren't you..."
+        extend " that famous youtube anime reviewer?"
+        d "The what now?"
+        show tomo shy at right
+        tm "Don't you..."
+        show tomo blush at right
+        extend " I mean..."
+        show tomo normal at right
+        extend " the one who acted dimiky."
+        sk "I'll just leave you two lovebirds alone."
+        sk "Call me if you want to order something."
+        hide bear with dissolve
+        hide tomo normal at right
+        show tomo normal
+        d "You wot?"
+        d "Hey, don't leave me now Bearman!"
+        show tomo blush
+        tm "Heh..."
+        extend " heh..."
+        extend " hehe..."
+        tm "So we look like..."
+        extend " a..."
+        extend " c-"
+        show tomo shy
+        extend "couple?"
+        show tomo blush
+        d "Ayyy yo, wait a minute!"
+        menu:
+            "I guess she is kinda cute":
+                d "I guess."
+                play sound "sfx/slinkUp2.mp3"
+                "Momoko liked that!"
+                $ lovePoints += 2
+                
+            "No.":
+                play sound "sfx/nooo2.mp3"
+                d "NoooOOOooo!"
+                show tomo annoyed
+                "Momoko is hurt by that."
+                $ lovePoints -= 1
+                
+            "Change the topic":
+                "Huh? I don't like where this conversation is going."
+                "I better change that there topic to something else."
+                d "So..."
+                extend " you like coffee, huh?"
+                show tomo blush
+                tm "Ah..."
+                show tomo shy
+                extend " that means..."
+                show tomo blush
+                extend " you're inviting me?"
+                d "Uhh..."
+                menu:
+                    "I'm sorry, I can't hear you very well.":
+                        d "I'm sorry, I can't hear you very well."
+                        d "I'd like to make an appointment with the dactor."
+                        show tomo annoyed
+                        tm "Eh?"
+                        tm "Oh..."
+                        "Dodged a bullet there."
+                        "I am the fucking limbo champion!"
+                        "I ain't got no money on me."
+                        
+                    "No.":
+                        play sound "sfx/nooo2.mp3"
+                        d "NoooOOOooo!"
+                        show tomo annoyed
+                        "Momoko will remember this..."
+                        $ lovePoints -= -1
+                        tm "Oh..."
+                        tm "I see..."
+                        
+                    "Yeah... Sure... I guess...":
+                        d "Fine whatever..."
+                        d "I wanted some coffee anyways."
+                        show tomo shy
+                        tm "R-"
+                        extend "Really?"
+                        show tomo blush
+                        play sound "sfx/slinkUp2.mp3"
+                        "Momoko seems pleased."
+                        $ lovePoints += 2
+                        tm "Hehe..."
+                        extend " Hehehe..."
+                        d "Bearman!"
+                        d "We want to order!"
+                        show tomo blush at right
+                        show bear at left with dissolve
+                        sk "Would you ever fuck off?"
+                    
+            
+        
     jump cafeTomo
