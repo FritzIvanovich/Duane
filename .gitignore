@@ -15,3 +15,5 @@ game/saves/*persistent*
 # Pycharm folder
 
 **/.idea/*.*
+
+tmp/navigation.json
