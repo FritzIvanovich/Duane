@@ -80,6 +80,10 @@ image bg arcade = "arcade"
 image bg street = "street"
 image bg disco = "disco"
 image bg cafetomo = "cafe"
+image bg station = "station"
+image bg station_entrance = "station_entrance"
+image bg train = "train"
+
 
 image movie = Movie(size=(1280, 720), xpos=0, ypos=0, xanchor=0, yanchor=0)
 

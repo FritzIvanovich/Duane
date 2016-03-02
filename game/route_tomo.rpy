@@ -284,13 +284,13 @@ label cafeTomo:
             sk "Wha-?"
             d "You know-"
             jump interrupt_tomo
-            
+
         "Cofee and Tea and then Special Offer":
             sk "Isn't that a bit much at once?"
             d "I don't think so, Tim."
             sk "Wha-?"
             jump interrupt_tomo
-            
+
         "Huh?":
             jump interrupt_tomo
     label interrupt_tomo:
@@ -331,14 +331,14 @@ label cafeTomo:
                 play sound "sfx/slinkUp2.mp3"
                 "Momoko liked that!"
                 $ lovePoints += 2
-                
+
             "No.":
                 play sound "sfx/nooo2.mp3"
                 d "NoooOOOooo!"
                 show tomo annoyed
                 "Momoko is hurt by that."
                 $ lovePoints -= 1
-                
+
             "Change the topic":
                 "Huh? I don't like where this conversation is going."
                 "I better change that there topic to something else."
@@ -361,7 +361,7 @@ label cafeTomo:
                         "Dodged a bullet there."
                         "I am the fucking limbo champion!"
                         "I ain't got no money on me."
-                        
+
                     "No.":
                         play sound "sfx/nooo2.mp3"
                         d "NoooOOOooo!"
@@ -370,7 +370,7 @@ label cafeTomo:
                         $ lovePoints -= -1
                         tm "Oh..."
                         tm "I see..."
-                        
+
                     "Yeah... Sure... I guess...":
                         d "Fine whatever..."
                         d "I wanted some coffee anyways."
@@ -387,8 +387,87 @@ label cafeTomo:
                         d "We want to order!"
                         show tomo blush at right
                         show bear at left with dissolve
-                        sk "Would you ever fuck off?"
-                    
-            
-        
-    jump cafeTomo
+                        sk "How may I help you?"
+                        d "Two cups of coffee please."
+                        sk "Coming right up!"
+                        hide bear with dissolve
+                        play sound ('sfx/hot_coffee.mp3')
+                        with Fade(0.1, 3.0, 0.5)
+                        show bear at left with dissolve
+                        sk "Ok, here you go."
+                        "Wow, the coffe smells surprisingly nice!"
+                        d "Ok, thanks bearman!"
+                        sk "You're Welcome!"
+                        hide bear with dissolve
+                        show tomo blush
+                        d "Here, you go Momoko!"
+                        show tomo shy
+                        tm "T-"
+                        extend "t-"
+                        extend "t-"
+                        extend "thanks."
+                        show tomo blush
+                        "You drink the fresh and hot coffee."
+                        "You instantly feel refreshed and energized again!"
+                        play sound ('sfx/itemGet.mp3')
+                        "Duane got fully healed!"
+                        d "Whew, that really hit the spot!"
+                        d "It's no Mountain Dew, but ..."
+                        d "I could get addicted to this too."
+
+        d "So, Momoko? What do you want from me?"
+        tm "Actually,"
+        show tomo shy
+        extend "I followed you from the arcade."
+        show tomo normal
+        tm "I was really close behind you, but you didn't notice me."
+        d "Really?"
+        tm "Yes!"
+        tm "You seemed like ... "
+        show tomo blush
+        extend "kind of like a nice guy."
+        "Uh oh, this seems kind of dangerous."
+        "But I don't really know why ..."
+        d "That's the reason?"
+        tm "Yeah, you're the first guy who was ever nice to me"
+        show tomo normal
+        tm "So, "
+        show tomo blush
+        extend "do you want to go out with me?"
+
+        "Crap, she looks so adorable like this."
+        "I hardly know her at all!"
+        "But getting a girlfriend seems tempting too!"
+        "I will ..."
+        label choice_tomo:
+        menu:
+            "Give it a try!":
+                d "'Kay"
+                tm "Really!"
+                "Tomoko seems really happy!"
+                tm "Heh-"
+                extend "hehe-"
+                extend "heh ..."
+                jump yandere_tomo
+            "Say Nothing":
+                d "..."
+                "She's still looking at me with puppy dog eyes."
+                "It seems like i have to give an answer to her, no matter what."
+                $ lovePoints -= 0.1
+                jump choice_tomo
+
+            "Better not stick my dick in crazy!" if lovePoints < 3:
+                "Yeah right! There's no way a chick could fall for me that quickly!"
+                "This seems too fishy!"
+                "There must be something wrong with her!"
+                d "Sorry, but i refuse!"
+                show tomo annoyed
+                tm "Oh, "
+                extend "is that so ..."
+
+label yandere_tomo:
+    scene bg station_entrance
+    "Duane arrived at the promised meeting spot."
+    d "What's up with this place?"
+    d "Is this really a famous meeting spot?"
+    d "Looks like some abandoned facility to me."
