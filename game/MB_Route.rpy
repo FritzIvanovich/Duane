@@ -455,6 +455,171 @@ label drinkingGame:
 
 label drinkingGameResult:
 
-    "I think that's enough!"
+    d "I think that's enough!"
+    
+    if drunk == 0:
+        show mb adachi
+        ab "What the fuck?"
+        ab "Like... "
+        extend "I thought you wanted to drink with me."
+        ab "You don't make any kind of sense, you know?"
+        ab "I'm leaving."
+        $ lovePoints -= 2
+        "Audrey seemed very disappointed."
+        play sound "sfx/steps.mp3"
+        hide mb love with dissolve
+        d "Uh..."
+        d "Why exactly did I just stop without making her drink anything?"
+        d "Or rather..." 
+        extend " why'd you pick that option, huh?!"
+        d "Yes, I'm breakting the fourth wall right now."
+        d "Do you play this game just to fucking cockblock me?"
+        d "Man and I thought we had some kind of partnership going on here..."
+        extend " no homo."
+        d "I sure hope there's some greater plan behind your decisions."
+        d "You know, "
+        extend "rather than just to fuck my shit up fam."
+        d "Oh well, now that you fucked up here we might as well try another place."
+        d "Just don't sabotage me again you bloody wanker."
+        stop music
+        scene black with dissolve
+        play sound "sfx/steps.mp3"
+        "Thus Duane leaves the club to look for another place to party in."
+        jump bar
+        
+    elif drunk <= 2:
+        ab "Haha! "
+        extend "What the fuck?"
+        ab "That was barely even a beginning!"
+        ab "You're like... "
+        extend "seriously saying we gotta stop?"
+        ab "Not much of a drinker, are you?"
+        d "Haha... "
+        extend "I guess not..."
+        "That just makes me sound even more pathetic."
+        ab "Whatever."
+        ab "I'm not stopping just now."
+        ab "You can go home or whatever if you've had enough."
+        d "I... "
+        extend "Uh..."
+        ab "Yeah. "
+        extend "Right."
+        ab "That's the end of this date."
+        ab "Remember to rate the date, comment the date and subscribe if you want to see dates similar to this one."
+        ab "See ya."
+        play sound "sfx/steps.mp3"
+        hide mb love with dissolve
+        d "Guess I fucked up!"
+        d "I was so so close too..."
+        d "Staying around when I gave her the impression I had enough would make me seem super autismal."
+        d "I think I'll have to leave."
+        d "Gotta find myself another place though."
+        stop music
+        scene black with dissolve
+        play sound "sfx/steps.mp3"
+        "Thus Duane leaves the club to look for another place to party in."
+        jump bar
+        
+    elif drunk <= 9:
+        d "Damn gurl you look like you're having a good ass time!"
+        ab "You know... "
+        extend "like... "
+        extend "I wouldn't have thought so first but... "
+        extend "that was bretty gud!"
+        ab "I ACTUALLY had fun today!"
+        play sound "sfx/slinkUp2.mp3"
+        $ lovePoints += 2
+        "Audrey really enjoyed herself today!"
+        jump loveEvaluation
+        
+    elif drunk == 10:
+        d "Damn gurl you look like you're having a good ass time!"
+        d "That's what I call genki!"
+        ab "You know... "
+        extend "like... "
+        extend "I wouldn't have thought so first but... "
+        extend "that was bretty gud!"
+        ab "I ACTUALLY had fun today!"
+        play sound "sfx/slinkUp2.mp3"
+        $ lovePoints += 5
+        "Audrey had the time of her life today!"
+        jump loveEvaluation
+        
+    elif drunk == 11:
+        d "Damn gurl you look like you're having a good ass time!"
+        ab "You know... "
+        extend "like... "
+        extend "I wouldn't have thought so first but... "
+        extend "that was bretty gud!"
+        ab "I ACTUALLY had fun today!"
+        play sound "sfx/slinkUp2.mp3"
+        $ lovePoints += 2
+        "Audrey really enjoyed herself today!"
+        jump loveEvaluation
+        
+label loveEvaluation:
+    
+    if lovePoints < 5:
+        show mb adachi
+        ab "Whatever..."
+        ab "Listen up."
+        ab "I DID have fun today."
+        ab "But don't get your hopes up or anything."
+        ab "You're like... "
+        ab "just not my type."
+        ab "So if you're down with that... "
+        extend "we can keep partying."
+        d "The fuck?"
+        d "Fuck that shit, All I wanted was that sweet pusssssyyyyy."
+        ab "Haha, you crack me up."
+        ab "Later."
+        play sound "sfx/steps.mp3"
+        hide mb adachi with dissolve
+        d "One of these days I'm just gonna shit my fuck."
+        d "I know it."
+        d "Bitches and whores."
+        d "I had enough of this goddamn bullshit, let's go drown my anger with some cheap booze."
+        stop music
+        scene black with dissolve
+        play sound "sfx/steps.mp3"
+        "Thus Duane leaves the club to look for another place to drink himself into oblivion."
+        jump bar
+        
+    elif lovePoints >= 5:
+        "Holy shit, I feel like I could score with her!"
+        d "It was nice hanging out with you as well."
+        d "Good to finally meet someone who appreciates the finer things in life!"
+        ab "Haha listen to that geeky talk again!"
+        ab "Anyway, I guess you're right."
+        ab "Whatever... "
+        ab "So... "
+        extend "Duane..."
+        ab "I think I'd..." 
+        extend " like to meet you tomorrow."
+        "Is this really happening?!"
+        "Oh shit! Oh shit! Oh shit!"
+        "Gotta play it cool."
+        d "Sure thang bby how bout at teh mall?"
+        ab "Why are you talking like some kinda retard all of a sudden?"
+        ab "But sure, the mall sounds nice."
+        ab "I gotta get going now, see you tomorrow."
+        ab "And don't forget!"
+        hide mb love with dissolve
+        play sound "sfx/steps.mp3"
+        d "See ya!"
+        "Fuuuuuuck yeeeeees!"
+        "I mean... It ain't tonight but I think I can really land with her!"
+        "What is this feeling in my chest?"
+        "It's like when I drink too much Mountain Dew..."
+        "It's all waku waku doki doki!"
+        "Or some shit like that..."
+        "Anyway I think I'll just find some place to sleep and head for the city tomorrow!"
+        scene black with dissolve
+        stop music
+        "And so Duane spent the night at a hotel being excited for the following day."
+    
+    
+        
+        
 
     return
